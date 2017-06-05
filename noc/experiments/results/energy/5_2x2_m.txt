@@ -1,0 +1,287 @@
+Default LOCALE: en_US.UTF-8
+
+<<< setup, at 0s, took 1.49338e+09s
+
+
+<<< generate, at 53.72s, took 55.6523s
+
+Presolve has eliminated 764847 rows and 888774 columns...
+Aggregator has done 244001 substitutions...
+Aggregator has done 511501 substitutions...
+Aggregator has done 778901 substitutions...
+Tried aggregator 3 times.
+MIQCP Presolve eliminated 1010065 rows and 889591 columns.
+MIQCP Presolve modified 4569 coefficients.
+Aggregator did 959140 substitutions.
+Reduced MIQCP has 4149 rows, 2378 columns, and 18789 nonzeros.
+Reduced MIQCP has 349 binaries, 38 generals, 0 SOSs, and 66 indicators.
+Reduced MIQCP has 382 quadratic constraints.
+Presolve time = 85.72 sec. (54666.67 ticks)
+Probing fixed 0 vars, tightened 166 bounds.
+Probing time = 0.04 sec. (3.98 ticks)
+Cover probing fixed 0 vars, tightened 41 bounds.
+Clique table members: 3647.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 32 threads.
+Root relaxation solution time = 0.04 sec. (26.22 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0     1761.0000     0                    954.0000      169         
+      0     0     1761.0000   108                    Cone: 24      481         
+      0     0     1761.0000   110                    Cone: 32      503         
+      0     0     1761.0000   116                    Cone: 34      505         
+      0     0     1761.0000   116                    Cone: 36      507         
+      0     0     1761.0000   116                   1761.0000      507         
+      0     0     1775.4000    56                    Cuts: 28      593         
+      0     0     1896.0000    29                    Cuts: 41      673         
+      0     0     1905.0000    60                    Cuts: 28      718         
+      0     0     2085.0000    55                    Cuts: 37      813         
+      0     0     2085.0000    41                    Cuts: 58      940         
+      0     0     2085.0000    50                    Cuts: 27      979         
+*     0+    0                         6693.0000     2085.0000      979   68.85%
+      0     2     2085.0000    50     6693.0000     2085.0000      979   68.85%
+Elapsed time = 87.17 sec. (55209.37 ticks, tree = 0.01 MB, solutions = 1)
+     11    10     5289.0000    13     6693.0000     2085.0000     1781   68.85%
+     65    40     3489.0000    17     6693.0000     2085.0000     2285   68.85%
+    210    32     2967.0000    14     6693.0000     2085.0000     3613   68.85%
+
+Implied bound cuts applied:  3
+Flow cuts applied:  3
+Mixed integer rounding cuts applied:  70
+Zero-half cuts applied:  8
+
+Root node processing (before b&c):
+  Real time             =   86.99 sec. (55244.51 ticks)
+Parallel b&c, 32 threads:
+  Real time             =    2.48 sec. (950.92 ticks)
+  Sync time (average)   =    0.97 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   89.47 sec. (56195.43 ticks)
+
+<<< solve, at 145.93s, took 89.5705s
+
+
+OBJECTIVE: 6693
+
+<<< post process, at 145.95s, took 0.0217881s
+
+// solution (optimal) with objective 6693
+// Quality Incumbent solution:
+// MIQCP objective                                6.6930000000e+03
+// MIQCP solution norm |x| (Total, Max)           1.33603e+06  6.69300e+03
+// MIQCP solution error (Ax=b) (Total, Max)       0.00000e+00  0.00000e+00
+// MIQCP solution error (x'Qx+dx=f) (Total, Max)  0.00000e+00  0.00000e+00
+// MIQCP x bound error (Total, Max)               0.00000e+00  0.00000e+00
+// MIQCP x integrality error (Total, Max)         0.00000e+00  0.00000e+00
+// MIQCP slack bound error (Total, Max)           0.00000e+00  0.00000e+00
+// MIQCP quad. slack bound error (Total, Max)     0.00000e+00  0.00000e+00
+// MIQCP indicator slack bound error (Total, Max) 0.00000e+00  0.00000e+00
+// 
+
+En = 6693;
+Load = [17 8 42 6];
+Map = [[1 0 0 0]
+             [0 1 0 0]
+             [0 0 1 0]
+             [0 0 1 0]
+             [0 0 0 1]];
+MP = 338;
+b = [[0 0 0 0 0]
+             [0 0 0 0 0]
+             [0 0 0 1 0]
+             [0 0 1 0 0]
+             [0 0 0 0 0]];
+bp = [[[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]
+             [[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]
+             [[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 1 0]
+                 [0 0 1 0 0]
+                 [0 0 0 0 0]]
+             [[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]];
+o = [[0 1 0 1 0]
+             [0 0 1 0 0]
+             [0 0 0 0 1]
+             [0 0 0 0 0]
+             [0 0 0 0 0]];
+q = [[[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]
+             [[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]
+             [[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 1 0 0]
+                 [0 0 0 0 0]]
+             [[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]];
+conflict = [[[[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 1 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 1 0]
+                     [0 0 1 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]]
+             [[[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 1 0]
+                     [0 0 1 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]]
+             [[[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 1]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]]
+             [[[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]]
+             [[[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]]];
+dis = [[0 1 1 1 2]
+             [1 0 2 2 1]
+             [1 2 0 0 1]
+             [1 2 0 0 1]
+             [2 1 1 1 0]];
+tao = [[0 103 233 212 326]];
+se = [[[0 17 0 17 0]
+                 [0 0 111 0 0]
+                 [0 0 0 0 254]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]];
+fe = [[[0 103 0 111 0]
+                 [0 0 233 0 0]
+                 [0 0 0 0 326]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]];
+fin = [[17 111 254 233 332]];
+
+<<< done, at 146.61s, took 0.664852s
+

@@ -1,0 +1,290 @@
+Default LOCALE: en_US.UTF-8
+
+<<< setup, at 0s, took 1.49338e+09s
+
+
+<<< generate, at 50.3s, took 51.6281s
+
+Presolve has eliminated 764847 rows and 888774 columns...
+Aggregator has done 247501 substitutions...
+Aggregator has done 515101 substitutions...
+Aggregator has done 782401 substitutions...
+Tried aggregator 3 times.
+MIQCP Presolve eliminated 1010037 rows and 889555 columns.
+MIQCP Presolve modified 4551 coefficients.
+Aggregator did 959155 substitutions.
+Reduced MIQCP has 4166 rows, 2405 columns, and 18853 nonzeros.
+Reduced MIQCP has 361 binaries, 41 generals, 0 SOSs, and 74 indicators.
+Reduced MIQCP has 388 quadratic constraints.
+Presolve time = 81.04 sec. (54527.10 ticks)
+Probing fixed 0 vars, tightened 166 bounds.
+Probing time = 0.05 sec. (3.99 ticks)
+Cover probing fixed 0 vars, tightened 43 bounds.
+Clique table members: 3652.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 32 threads.
+Root relaxation solution time = 0.04 sec. (26.41 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0     4374.0000     0                    432.0000      181         
+      0     0     4374.0000    97                    Cone: 30      250         
+      0     0     4374.0000    98                    Cone: 32      252         
+      0     0     4374.0000   100                   4374.0000      252         
+      0     0     4950.3600    54                    Cuts: 16      270         
+      0     0     4959.0000    50                    Cuts: 25      321         
+      0     0     4959.0000    47                    Cuts: 51      353         
+      0     0     4968.0000    49                    Cuts: 24      385         
+      0     0     5391.0000    62                 MIRcuts: 12      432         
+      0     0     5391.0000    47                    Cuts: 48      518         
+      0     0     5391.0000    62                    Cuts: 36      592         
+      0     2     5391.0000    33                   5391.0000      592         
+Elapsed time = 82.44 sec. (55022.42 ticks, tree = 0.01 MB, solutions = 0)
+     10     4    infeasible                         5391.0000     1120         
+     32     9    infeasible                         5391.0000     1871         
+     83    11     7479.0000    63                   5391.0000     2335         
+*   105    16      integral     0    11241.0000     5391.0000     2542   52.04%
+*   145    15      integral     0     9999.0000     5391.0000     3312   46.08%
+    178     7     7744.3184    68     9999.0000     5391.0000     4416   46.08%
+    365    53     8199.0000    33     9999.0000     5391.0000     5740   46.08%
+
+Implied bound cuts applied:  9
+Flow cuts applied:  11
+Mixed integer rounding cuts applied:  80
+Zero-half cuts applied:  5
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =   82.34 sec. (55070.04 ticks)
+Parallel b&c, 32 threads:
+  Real time             =    3.74 sec. (1542.60 ticks)
+  Sync time (average)   =    1.77 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   86.09 sec. (56612.64 ticks)
+
+<<< solve, at 139.38s, took 86.1436s
+
+
+OBJECTIVE: 9999
+
+<<< post process, at 139.4s, took 0.0206418s
+
+// solution (integer optimal, tolerance) with objective 9999
+// Quality Incumbent solution:
+// MIQCP objective                                9.9990000000e+03
+// MIQCP solution norm |x| (Total, Max)           1.36718e+06  9.99900e+03
+// MIQCP solution error (Ax=b) (Total, Max)       0.00000e+00  0.00000e+00
+// MIQCP solution error (x'Qx+dx=f) (Total, Max)  0.00000e+00  0.00000e+00
+// MIQCP x bound error (Total, Max)               0.00000e+00  0.00000e+00
+// MIQCP x integrality error (Total, Max)         0.00000e+00  0.00000e+00
+// MIQCP slack bound error (Total, Max)           0.00000e+00  0.00000e+00
+// MIQCP quad. slack bound error (Total, Max)     0.00000e+00  0.00000e+00
+// MIQCP indicator slack bound error (Total, Max) 0.00000e+00  0.00000e+00
+// 
+
+En = 9999;
+Load = [51 24 126 18];
+Map = [[1 0 0 0]
+             [0 1 0 0]
+             [0 0 1 0]
+             [0 0 1 0]
+             [0 0 0 1]];
+MP = 454;
+b = [[0 0 0 0 0]
+             [0 0 0 0 0]
+             [0 0 0 1 0]
+             [0 0 1 0 0]
+             [0 0 0 0 0]];
+bp = [[[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]
+             [[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]
+             [[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 1 0]
+                 [0 0 1 0 0]
+                 [0 0 0 0 0]]
+             [[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]];
+o = [[0 1 0 1 0]
+             [0 0 1 0 0]
+             [0 0 0 0 1]
+             [0 0 0 0 0]
+             [0 0 0 0 0]];
+q = [[[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]
+             [[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]
+             [[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 1 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]
+             [[0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]];
+conflict = [[[[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 1 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 1 0]
+                     [0 0 1 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]]
+             [[[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 1 0]
+                     [0 0 1 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]]
+             [[[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 1]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]]
+             [[[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]]
+             [[[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]
+                 [[0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]
+                     [0 0 0 0 0]]]];
+dis = [[0 1 1 1 2]
+             [1 0 2 2 1]
+             [1 2 0 0 1]
+             [1 2 0 0 1]
+             [2 1 1 1 0]];
+tao = [[0 137 283 355 418]];
+se = [[[0 51 0 137 0]
+                 [0 0 161 0 0]
+                 [0 0 0 0 346]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]];
+fe = [[[0 137 0 230 0]
+                 [0 0 283 0 0]
+                 [0 0 0 0 418]
+                 [0 0 0 0 0]
+                 [0 0 0 0 0]]];
+fin = [[51 161 346 418 436]];
+
+<<< done, at 140.08s, took 0.675574s
+

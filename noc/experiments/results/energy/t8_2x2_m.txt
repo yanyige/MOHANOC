@@ -1,0 +1,898 @@
+Default LOCALE: en_US.UTF-8
+
+<<< setup, at 0s, took 1.49338e+09s
+
+
+<<< generate, at 610.51s, took 1,089.73s
+
+Presolve has eliminated 6190599 rows and 7402522 columns...
+Aggregator has done 3001 substitutions...
+Aggregator has done 71301 substitutions...
+Aggregator has done 136001 substitutions...
+Aggregator has done 195101 substitutions...
+Aggregator has done 249101 substitutions...
+Aggregator has done 302201 substitutions...
+Aggregator has done 356701 substitutions...
+Aggregator has done 409001 substitutions...
+Aggregator has done 477401 substitutions...
+Aggregator has done 542101 substitutions...
+Aggregator has done 601701 substitutions...
+Aggregator has done 655901 substitutions...
+Aggregator has done 708601 substitutions...
+Aggregator has done 763501 substitutions...
+Aggregator has done 815801 substitutions...
+Aggregator has done 870301 substitutions...
+Aggregator has done 923401 substitutions...
+Aggregator has done 977401 substitutions...
+Aggregator has done 1031001 substitutions...
+Aggregator has done 1090501 substitutions...
+Aggregator has done 1158701 substitutions...
+Aggregator has done 1220601 substitutions...
+Aggregator has done 1276901 substitutions...
+Aggregator has done 1330001 substitutions...
+Aggregator has done 1383901 substitutions...
+Aggregator has done 1437501 substitutions...
+Aggregator has done 1490601 substitutions...
+Aggregator has done 1545001 substitutions...
+Aggregator has done 1597701 substitutions...
+Aggregator has done 1652401 substitutions...
+Aggregator has done 1704801 substitutions...
+Aggregator has done 1772101 substitutions...
+Aggregator has done 1836901 substitutions...
+Aggregator has done 1897201 substitutions...
+Aggregator has done 1951701 substitutions...
+Aggregator has done 2004101 substitutions...
+Aggregator has done 2058401 substitutions...
+Aggregator has done 2111501 substitutions...
+Aggregator has done 2166001 substitutions...
+Aggregator has done 2219101 substitutions...
+Aggregator has done 2280701 substitutions...
+Aggregator has done 2348201 substitutions...
+Aggregator has done 2410101 substitutions...
+Aggregator has done 2465101 substitutions...
+Aggregator has done 2518201 substitutions...
+Aggregator has done 2572401 substitutions...
+Aggregator has done 2625801 substitutions...
+Aggregator has done 2679401 substitutions...
+Aggregator has done 2733401 substitutions...
+Aggregator has done 2786501 substitutions...
+Aggregator has done 2841001 substitutions...
+Aggregator has done 2893301 substitutions...
+Aggregator has done 2947801 substitutions...
+Aggregator has done 3000901 substitutions...
+Aggregator has done 3055401 substitutions...
+Aggregator has done 3108501 substitutions...
+Aggregator has done 3162101 substitutions...
+Aggregator has done 3216101 substitutions...
+Aggregator has done 3273801 substitutions...
+Aggregator has done 3342701 substitutions...
+Aggregator has done 3404601 substitutions...
+Aggregator has done 3472101 substitutions...
+Aggregator has done 3538201 substitutions...
+Aggregator has done 3599701 substitutions...
+Aggregator has done 3654501 substitutions...
+Aggregator has done 3706801 substitutions...
+Aggregator has done 3761301 substitutions...
+Aggregator has done 3814401 substitutions...
+Aggregator has done 3868401 substitutions...
+Aggregator has done 3922001 substitutions...
+Aggregator has done 3975601 substitutions...
+Aggregator has done 4029601 substitutions...
+Aggregator has done 4082401 substitutions...
+Aggregator has done 4137201 substitutions...
+Aggregator has done 4189501 substitutions...
+Aggregator has done 4244001 substitutions...
+Aggregator has done 4297101 substitutions...
+Aggregator has done 4351101 substitutions...
+Aggregator has done 4404701 substitutions...
+Aggregator has done 4458301 substitutions...
+Aggregator has done 4512301 substitutions...
+Aggregator has done 4565401 substitutions...
+Aggregator has done 4619901 substitutions...
+Aggregator has done 4672201 substitutions...
+Aggregator has done 4726701 substitutions...
+Aggregator has done 4779801 substitutions...
+Aggregator has done 4834001 substitutions...
+Aggregator has done 4887401 substitutions...
+Aggregator has done 4941001 substitutions...
+Aggregator has done 4995001 substitutions...
+Aggregator has done 5048101 substitutions...
+Aggregator has done 5102601 substitutions...
+Aggregator has done 5154901 substitutions...
+Aggregator has done 5209401 substitutions...
+Aggregator has done 5262501 substitutions...
+Aggregator has done 5317001 substitutions...
+Aggregator has done 5370101 substitutions...
+Aggregator has done 5423701 substitutions...
+Aggregator has done 5477701 substitutions...
+Aggregator has done 5530801 substitutions...
+Aggregator has done 5585301 substitutions...
+Aggregator has done 5637901 substitutions...
+Aggregator has done 5692201 substitutions...
+Aggregator has done 5745101 substitutions...
+Aggregator has done 5799601 substitutions...
+Aggregator has done 5852701 substitutions...
+Aggregator has done 5906601 substitutions...
+Aggregator has done 5960301 substitutions...
+Aggregator has done 6013401 substitutions...
+Aggregator has done 6067901 substitutions...
+Aggregator has done 6120601 substitutions...
+Aggregator has done 6175301 substitutions...
+Aggregator has done 6227701 substitutions...
+Aggregator has done 6282201 substitutions...
+Aggregator has done 6335301 substitutions...
+Aggregator has done 6389301 substitutions...
+Aggregator has done 6442901 substitutions...
+Aggregator has done 6496401 substitutions...
+Aggregator has done 6550501 substitutions...
+Aggregator has done 6603201 substitutions...
+Aggregator has done 6658001 substitutions...
+Aggregator has done 6710301 substitutions...
+Aggregator has done 6764801 substitutions...
+Aggregator has done 6817901 substitutions...
+Aggregator has done 6871901 substitutions...
+Aggregator has done 6925501 substitutions...
+Aggregator has done 6979101 substitutions...
+Aggregator has done 7033101 substitutions...
+Aggregator has done 7076718 substitutions...
+Tried aggregator 3 times.
+MIQCP Presolve eliminated 7993901 rows and 7406294 columns.
+MIQCP Presolve modified 9200 coefficients.
+Aggregator did 7076725 substitutions.
+Reduced MIQCP has 17287 rows, 9430 columns, and 80778 nonzeros.
+Reduced MIQCP has 1008 binaries, 89 generals, 0 SOSs, and 242 indicators.
+Reduced MIQCP has 1756 quadratic constraints.
+Presolve time = 4029.72 sec. (1870197.07 ticks)
+Probing fixed 0 vars, tightened 464 bounds.
+Probing time = 0.16 sec. (23.95 ticks)
+Clique table members: 14212.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 32 threads.
+Root relaxation solution time = 0.11 sec. (77.23 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0     1952.0000     0                   1098.0000      861         
+      0     0     1952.0000   185                   Cone: 100     1662         
+      0     0     1952.0000   243                   Cone: 112     2170         
+      0     0     1952.0000   266                   Cone: 117     2192         
+      0     0     1952.0000   262                   Cone: 121     2195         
+      0     0     1952.0000   262                   Cone: 125     2198         
+      0     0     1952.0000   262                   1952.0000     2198         
+      0     0     1952.0000   143                    Cuts: 47     2416         
+      0     0     1952.0000   186                   Cuts: 117     2821         
+      0     0     1952.0000   163                    Cuts: 20     3154         
+      0     0     1952.0000   149                   Cuts: 222     3576         
+      0     0     1952.0000   168                   Cuts: 171     3903         
+      0     2     1952.0000    93                   1952.0000     3903         
+Elapsed time = 4037.99 sec. (1874186.16 ticks, tree = 0.01 MB, solutions = 0)
+      2     4     1952.0000    97                   1952.0000     3924         
+      3     5     2258.0000    85                   1952.0000     4702         
+      6     8     1952.0000    97                   1952.0000     4919         
+      9    11     2258.0000   110                   1952.0000     5443         
+     13    12     2258.0000   110                   1952.0000     5672         
+     15    14     2258.0000    80                   1952.0000     5780         
+     17    16     2258.0000    77                   1952.0000     6138         
+     21    20     2258.0000    94                   1952.0000     6376         
+     31    30     2546.0000    88                   1952.0000     6993         
+     48    44     2258.0000   120                   1952.0000    11372         
+Elapsed time = 4043.26 sec. (1878875.88 ticks, tree = 0.01 MB, solutions = 0)
+    100    85     3302.0000   129                   1952.0000    24764         
+    105    89     2282.7075   137                   1952.0000    28812         
+    266   222     1952.0000    90                   1952.0000    47890         
+    477   341     3158.0000   118                   1952.0000    56721         
+    875   607     3267.2152   196                   1952.0000    66219         
+   1438   949    infeasible                         1952.0000   102460         
+*  1508+  980                        12554.0000     1952.0000   125865   84.45%
+*  1862  1212      integral     0     6596.0000     1952.0000   142721   70.41%
+   2695  1549     4156.5136   195     6596.0000     1952.0000   151191   70.41%
+   2767  1588     1976.7075   266     6596.0000     1952.0000   175477   70.41%
+   3953  2313     1952.0000   147     6596.0000     1952.0000   239320   70.41%
+Elapsed time = 4062.31 sec. (1889739.71 ticks, tree = 0.39 MB, solutions = 3)
+   4103  2365     4156.5136   135     6596.0000     1952.0000   280132   70.41%
+*  4181+ 2368                         5030.0000     1952.0000   289980   61.19%
+   5300  1790     2602.8658   181     5030.0000     1952.0000   318967   61.19%
+   5349  1791     4156.5136   187     5030.0000     1952.0000   330767   61.19%
+*  5434  1810      integral     0     5012.0000     1952.0000   353219   61.05%
+   5510  1827     4220.1231   213     5012.0000     1952.0000   370017   61.05%
+*  7382+ 2698                         4778.0000     1952.0000   468271   59.15%
+   8004  2623     3395.2720   223     4778.0000     1952.0000   473120   59.15%
+   8009  2626     1952.0000   178     4778.0000     1952.0000   475188   59.15%
+   8383  2672     3644.1673   171     4778.0000     1952.0000   555401   59.15%
+*  9368  2904      integral     0     4760.0000     1952.0000   670304   58.99%
+* 10745+ 3472                         4670.0000     1952.0000   691655   58.20%
+* 10748  3349      integral     0     4652.0000     1952.0000   691655   58.04%
+Elapsed time = 4077.63 sec. (1897935.57 ticks, tree = 0.40 MB, solutions = 10)
+  10757  2148     4156.5136   126     4652.0000     1952.0000   692421   58.04%
+  10918  2109     3339.2152   163     4652.0000     1952.0000   740615   58.04%
+  11018  2088     2712.3598   237     4652.0000     1952.0000   759257   58.04%
+  11336  2037     2708.0000   153     4652.0000     1952.0000   792388   58.04%
+* 12302+ 1987                         4076.0000     1952.0000   841016   52.11%
+* 12390  1960      integral     0     4058.0000     1952.0000   843858   51.90%
+* 12824+ 1938                         3806.0000     1952.0000   852251   48.71%
+* 13173  1966      integral     0     3788.0000     1952.0000   856210   48.47%
+* 13201+ 1934                         3734.0000     1952.0000   857054   47.72%
+* 13237  1913      integral     0     3716.0000     1952.0000   857340   47.47%
+  13354  1821     2719.4853   195     3716.0000     1952.0000   864086   47.47%
+* 13579+ 1609                         3680.0000     1952.0000   874197   46.96%
+* 13612  1470      integral     0     3662.0000     1952.0000   875418   46.70%
+* 13626+ 1460                         3500.0000     1952.0000   876354   44.23%
+* 13720  1448      integral     0     3482.0000     1952.0000   878623   43.94%
+Elapsed time = 4088.56 sec. (1903606.77 ticks, tree = 0.43 MB, solutions = 17)
+  13973   283    infeasible           3482.0000     1952.0000   881995   43.94%
+  13989   281     2708.0000   199     3482.0000     1952.0000   889641   43.94%
+  14117   212     3122.0000   200     3482.0000     1952.0000   906679   43.94%
+  14412   121     2708.0000   179     3482.0000     1952.0000   928667   43.94%
+* 14730+  183                         3428.0000     1952.0000   935248   43.06%
+* 14754   157      integral     0     3410.0000     1952.0000   935299   42.76%
+  15354    51     3356.0000    63     3410.0000     3122.0000   942546    8.45%
+
+Cover cuts applied:  24
+Implied bound cuts applied:  466
+Flow cuts applied:  39
+Mixed integer rounding cuts applied:  223
+Zero-half cuts applied:  7
+
+Root node processing (before b&c):
+  Real time             = 4059.14 sec. (1879455.13 ticks)
+Parallel b&c, 32 threads:
+  Real time             =   72.18 sec. (36651.91 ticks)
+  Sync time (average)   =   24.99 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) = 4131.33 sec. (1916107.04 ticks)
+
+<<< solve, at 5,190.28s, took 4,131.85s
+
+
+OBJECTIVE: 3410
+
+<<< post process, at 5,190.38s, took 0.111267s
+
+// solution (optimal) with objective 3410
+// Quality Incumbent solution:
+// MIQCP objective                                3.4100000000e+03
+// MIQCP solution norm |x| (Total, Max)           1.03949e+07  3.41000e+03
+// MIQCP solution error (Ax=b) (Total, Max)       5.32907e-14  1.77636e-15
+// MIQCP solution error (x'Qx+dx=f) (Total, Max)  0.00000e+00  0.00000e+00
+// MIQCP x bound error (Total, Max)               0.00000e+00  0.00000e+00
+// MIQCP x integrality error (Total, Max)         3.55271e-15  1.77636e-15
+// MIQCP slack bound error (Total, Max)           0.00000e+00  0.00000e+00
+// MIQCP quad. slack bound error (Total, Max)     0.00000e+00  0.00000e+00
+// MIQCP indicator slack bound error (Total, Max) 0.00000e+00  0.00000e+00
+// 
+
+En = 3410;
+Load = [32 8 48 13];
+Map = [[0 0 0 1]
+             [0 0 0 1]
+             [0 0 1 0]
+             [1 0 0 0]
+             [0 0 1 0]
+             [0 1 0 0]
+             [1 0 0 0]
+             [0 0 1 0]];
+MP = 142;
+b = [[0 1 0 0 0 0 0 0]
+             [1 0 0 0 0 0 0 0]
+             [0 0 0 0 1 0 0 1]
+             [0 0 0 0 0 0 1 0]
+             [0 0 1 0 0 0 0 1]
+             [0 0 0 0 0 0 0 0]
+             [0 0 0 1 0 0 0 0]
+             [0 0 1 0 1 0 0 0]];
+bp = [[[0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 1 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 1 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]]
+             [[0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]]
+             [[0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 1 0 0 1]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 1 0 0 0 0 1]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 1 0 1 0 0 0]]
+             [[0 1 0 0 0 0 0 0]
+                 [1 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]]];
+o = [[0 0 0 0 1 0 0 0]
+             [0 0 1 0 0 0 0 1]
+             [0 0 0 0 0 0 0 0]
+             [0 0 0 0 0 1 0 0]
+             [0 0 0 0 0 0 0 0]
+             [0 0 0 0 0 0 0 0]
+             [0 0 0 0 0 0 0 0]
+             [0 0 0 0 0 0 0 0]];
+q = [[[0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 1 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]]
+             [[0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]]
+             [[0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 1 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 1 0 1 0 0 0]]
+             [[0 1 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]]];
+conflict = [[[[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]]
+             [[[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]]
+             [[[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]]
+             [[[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 1 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]]
+             [[[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]]
+             [[[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]]
+             [[[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]]
+             [[[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]
+                 [[0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]
+                     [0 0 0 0 0 0 0 0]]]];
+dis = [[0 0 1 2 1 1 2 1]
+             [0 0 1 2 1 1 2 1]
+             [1 1 0 1 0 2 1 0]
+             [2 2 1 0 1 1 0 1]
+             [1 1 0 1 0 2 1 0]
+             [1 1 2 1 2 0 1 2]
+             [2 2 1 0 1 1 0 1]
+             [1 1 0 1 0 2 1 0]];
+tao = [[0 14 103 6 125 126 117 86]];
+se = [[[0 6 0 0 6 0 0 0]
+                 [0 0 21 0 0 0 0 21]
+                 [0 0 0 0 117 0 0 0]
+                 [0 0 0 0 0 33 33 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]]];
+fe = [[[0 14 0 0 78 0 0 0]
+                 [0 0 103 0 0 0 0 86]
+                 [0 0 0 0 125 0 0 0]
+                 [0 0 0 0 0 126 117 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]
+                 [0 0 0 0 0 0 0 0]]];
+fin = [[6 21 117 23 142 134 132 103]];
+
+<<< done, at 5,194.8s, took 4.49166s
+

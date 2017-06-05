@@ -1,0 +1,772 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.1.14)  28 APR 2017 22:17
+entering extended mode
+**cp17.tex
+(C:\Users\周\Desktop\noc\cp17.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(C:\Users\周\Desktop\noc\llncs.cls
+Document Class: llncs 2015/06/24 v2.20 
+ LaTeX document class for Lecture Notes in Computer Science
+(D:\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(D:\CTEX\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(D:\CTEX\MiKTeX\tex\latex\tools\multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count87
+\mult@box=\box26
+\multicol@leftmargin=\dimen103
+\c@unbalance=\count88
+\c@collectmore=\count89
+\doublecol@number=\count90
+\multicoltolerance=\count91
+\multicolpretolerance=\count92
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count93
+\c@finalcolumnbadness=\count94
+\last@try=\dimen108
+\multicolovershoot=\dimen109
+\multicolundershoot=\dimen110
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\multicol@sort@counter=\count95
+)
+(D:\CTEX\MiKTeX\tex\latex\oberdiek\aliascnt.sty
+Package: aliascnt 2009/09/08 v1.3 Alias counter (HO)
+
+(D:\CTEX\MiKTeX\tex\latex\carlisle\remreset.sty))
+\c@chapter=\count96
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 365.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 368.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
+\tocchpnum=\dimen111
+\tocsecnum=\dimen112
+\tocsectotal=\dimen113
+\tocsubsecnum=\dimen114
+\tocsubsectotal=\dimen115
+\tocsubsubsecnum=\dimen116
+\tocsubsubsectotal=\dimen117
+\tocparanum=\dimen118
+\tocparatotal=\dimen119
+\tocsubparanum=\dimen120
+\@tempcntc=\count97
+\fnindent=\dimen121
+\c@@inst=\count98
+\c@@auth=\count99
+\c@auco=\count100
+\instindent=\dimen122
+\authrun=\box52
+\authorrunning=\toks14
+\tocauthor=\toks15
+\titrun=\box53
+\titlerunning=\toks16
+\toctitle=\toks17
+\c@theorem=\count101
+\c@case=\count102
+\c@conjecture=\count103
+\c@corollary=\count104
+\c@definition=\count105
+\c@example=\count106
+\c@exercise=\count107
+\c@lemma=\count108
+\c@note=\count109
+\c@problem=\count110
+\c@property=\count111
+\c@proposition=\count112
+\c@question=\count113
+\c@solution=\count114
+\c@remark=\count115
+\headlineindent=\dimen123
+)
+(D:\CTEX\UserData\tex\latex\bbding\bbding.sty
+Package: bbding 1999/04/15 v1.01 Dingbats symbols
+)
+(D:\CTEX\MiKTeX\tex\latex\tools\xspace.sty
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+(D:\CTEX\UserData\tex\latex\wrapfig\wrapfig.sty
+\wrapoverhang=\dimen124
+\WF@size=\dimen125
+\c@WF@wrappedlines=\count116
+\WF@box=\box54
+\WF@everypar=\toks18
+Package: wrapfig 2003/01/31  v 3.6
+)
+(D:\CTEX\UserData\tex\latex\threeparttable\threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box55
+)
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen126
+))
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen127
+)
+(D:\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count117
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count118
+\leftroot@=\count119
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count120
+\DOTSCASE@=\count121
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+\big@size=\dimen128
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count122
+\c@MaxMatrixCols=\count123
+\dotsspace@=\muskip10
+\c@parentequation=\count124
+\dspbrk@lvl=\count125
+\tag@help=\toks21
+\row@=\count126
+\column@=\count127
+\maxfields@=\count128
+\andhelp@=\toks22
+\eqnshift@=\dimen129
+\alignsep@=\dimen130
+\tagshift@=\dimen131
+\tagwidth@=\dimen132
+\totwidth@=\dimen133
+\lineht@=\dimen134
+\@envbody=\toks23
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(D:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+(D:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(D:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(D:\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count129
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(D:\CTEX\UserData\tex\latex\subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip48
+\subfigcapskip=\skip49
+\subfigcaptopadj=\dimen137
+\subfigbottomskip=\skip50
+\subfigcapmargin=\dimen138
+\subfiglabelskip=\skip51
+\c@subfigure=\count130
+\c@lofdepth=\count131
+\c@subtable=\count132
+\c@lotdepth=\count133
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(D:\CTEX\UserData\tex\latex\subfigure\subfigure.cfg)
+\subfig@top=\skip52
+\subfig@bottom=\skip53
+)
+(D:\CTEX\UserData\tex\latex\bbm\bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(D:\CTEX\UserData\tex\latex\algorithmicx\algpseudocode.sty
+Package: algpseudocode 
+
+(D:\CTEX\MiKTeX\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(D:\CTEX\UserData\tex\latex\algorithmicx\algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count134
+\c@ALG@rem=\count135
+\c@ALG@nested=\count136
+\ALG@tlm=\skip54
+\ALG@thistlm=\skip55
+\c@ALG@Lnr=\count137
+\c@ALG@blocknr=\count138
+\c@ALG@storecount=\count139
+\c@ALG@tmpcounter=\count140
+\ALG@tmplength=\skip56
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (D:\CTEX\UserData\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(D:\CTEX\MiKTeX\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count141
+\float@exts=\toks26
+\float@box=\box58
+\@float@everytoks=\toks27
+\@floatcapt=\box59
+)
+\@float@every@algorithm=\toks28
+\c@algorithm=\count142
+)
+(D:\CTEX\MiKTeX\tex\latex\ltxmisc\url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(D:\CTEX\MiKTeX\tex\latex\graphics\color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(D:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(D:\CTEX\UserData\tex\latex\lipsum\lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count143
+)
+\tablebox=\box60
+
+(D:\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
+\bigstrutjot=\dimen139
+)
+(D:\CTEX\UserData\tex\latex\paralist\paralist.sty
+Package: paralist 2016/08/07 v2.6 Extended list environments
+\pltopsep=\skip57
+\plpartopsep=\skip58
+\plitemsep=\skip59
+\plparsep=\skip60
+\pl@lab=\toks29
+)
+(D:\CTEX\UserData\tex\latex\setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+\c@defi=\count144
+
+No file cp17.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+(D:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count145
+\scratchdimen=\dimen140
+\scratchbox=\box61
+\nofMPsegments=\count146
+\nofMParguments=\count147
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen141
+\MPnumerator=\count149
+\makeMPintoPDFobject=\count150
+\everyMPtoPDFconversion=\toks31
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 128.
+ (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 128.
+
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Title too long for running head. Please supply
+a shorter form with \titlerunning prior to \maketitle
+
+LaTeX Warning: Citation `deb2016energy' on page 1 undefined on input line 187.
+
+
+LaTeX Warning: Citation `agyeman2016performance' on page 1 undefined on input l
+ine 187.
+
+[1
+
+{D:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
+
+LaTeX Warning: Reference `se:related' on page 2 undefined on input line 199.
+
+
+LaTeX Warning: Reference `se:concepts' on page 2 undefined on input line 199.
+
+
+LaTeX Warning: Reference `se:model' on page 2 undefined on input line 199.
+
+
+LaTeX Warning: Reference `se:alg' on page 2 undefined on input line 199.
+
+
+LaTeX Warning: Reference `se:exp' on page 2 undefined on input line 199.
+
+
+LaTeX Warning: Reference `se:con' on page 2 undefined on input line 199.
+
+
+LaTeX Warning: Citation `hu2005' on page 2 undefined on input line 203.
+
+
+LaTeX Warning: Citation `murali2004bandwidth' on page 2 undefined on input line
+ 203.
+
+
+LaTeX Warning: Citation `bhardwaj2009energy' on page 2 undefined on input line 
+203.
+
+
+LaTeX Warning: Citation `chou2008contention' on page 2 undefined on input line 
+203.
+
+
+LaTeX Warning: Citation `yang2014effective' on page 2 undefined on input line 2
+05.
+
+
+LaTeX Warning: Citation `yang2016application' on page 2 undefined on input line
+ 205.
+
+
+LaTeX Warning: Citation `chou2008contention' on page 2 undefined on input line 
+206.
+
+
+LaTeX Warning: Citation `yang2016application' on page 2 undefined on input line
+ 206.
+
+
+LaTeX Warning: Citation `he2012unism' on page 2 undefined on input line 206.
+
+
+LaTeX Warning: Citation `han2015contention' on page 2 undefined on input line 2
+06.
+
+
+LaTeX Warning: Citation `tino2011multi' on page 2 undefined on input line 210.
+
+
+LaTeX Warning: Citation `hu2003energy' on page 2 undefined on input line 210.
+
+
+LaTeX Warning: Citation `lei2010energy' on page 2 undefined on input line 210.
+
+
+LaTeX Warning: Citation `agrawal2010efficient' on page 2 undefined on input lin
+e 210.
+
+
+LaTeX Warning: Citation `nedjah2014application' on page 2 undefined on input li
+ne 210.
+
+
+LaTeX Warning: Citation `chai2014list' on page 2 undefined on input line 210.
+
+
+LaTeX Warning: Citation `yang2016application' on page 2 undefined on input line
+ 210.
+
+
+LaTeX Warning: Citation `chou2008contention' on page 2 undefined on input line 
+211.
+
+
+LaTeX Warning: Citation `huang2011energy' on page 2 undefined on input line 213
+.
+
+
+LaTeX Warning: Citation `bolanos2013uml' on page 2 undefined on input line 216.
+
+
+
+LaTeX Warning: Citation `he2012unism' on page 2 undefined on input line 216.
+
+
+LaTeX Warning: Citation `yang2016application' on page 2 undefined on input line
+ 218.
+
+[2]
+
+LaTeX Warning: Reference `fig:taskgraph' on page 3 undefined on input line 228.
+
+
+<figures/running_example.pdf, id=14, 652.4375pt x 245.91875pt>
+File: figures/running_example.pdf Graphic file (type pdf)
+
+<use figures/running_example.pdf>
+Package pdftex.def Info: figures/running_example.pdf used on input line 231.
+(pdftex.def)             Requested size: 295.05711pt x 111.21776pt.
+
+
+LaTeX Warning: Reference `fig:taskgraph' on page 3 undefined on input line 237.
+
+
+
+LaTeX Warning: Reference `fig:taskgraph' on page 3 undefined on input line 243.
+
+
+[3 <C:/Users/周/Desktop/noc/figures/running_example.pdf>]
+
+LaTeX Warning: Reference `fig:taskgraph' on page 4 undefined on input line 245.
+
+
+
+LaTeX Warning: Reference `fig:taskgraph' on page 4 undefined on input line 245.
+
+
+
+LaTeX Warning: Reference `fig:taskgraph' on page 4 undefined on input line 245.
+
+
+(C:\Users\周\Desktop\noc\noc.tex
+
+LaTeX Warning: Reference `tab:var' on page 4 undefined on input line 12.
+
+
+LaTeX Warning: Reference `tab:con' on page 4 undefined on input line 12.
+
+
+Overfull \hbox (48.9165pt too wide) in paragraph at lines 37--56
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `tab:con' on page 4 undefined on input line 58.
+
+[4]
+
+LaTeX Warning: Reference `eq:map' on page 5 undefined on input line 81.
+
+
+LaTeX Warning: Reference `eq:cap' on page 5 undefined on input line 82.
+
+
+LaTeX Warning: Reference `eq:neighbor' on page 5 undefined on input line 83.
+
+
+LaTeX Warning: Reference `eq:aux' on page 5 undefined on input line 84.
+
+[5]
+
+LaTeX Warning: Reference `eq:response' on page 6 undefined on input line 103.
+
+
+LaTeX Warning: Reference `eq:datar' on page 6 undefined on input line 104.
+
+
+LaTeX Warning: Reference `eq:datas' on page 6 undefined on input line 105.
+
+
+LaTeX Warning: Reference `eq:next' on page 6 undefined on input line 106.
+
+
+LaTeX Warning: Reference `eq:period' on page 6 undefined on input line 107.
+
+
+LaTeX Warning: Reference `eq:overlap' on page 6 undefined on input line 124.
+
+
+LaTeX Warning: Reference `eq:samesource' on page 6 undefined on input line 126.
+
+
+
+LaTeX Warning: Reference `eq:linklap' on page 6 undefined on input line 127.
+
+
+LaTeX Warning: Reference `fig:overlap' on page 6 undefined on input line 127.
+
+<figures/overlap.pdf, id=62, 473.77pt x 111.41624pt>
+File: figures/overlap.pdf Graphic file (type pdf)
+ <use figures/overlap.pdf>
+Package pdftex.def Info: figures/overlap.pdf used on input line 134.
+(pdftex.def)             Requested size: 295.05711pt x 69.39017pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `eq:comp' on page 6 undefined on input line 148.
+
+
+LaTeX Warning: Reference `eq:comm' on page 6 undefined on input line 149.
+
+
+Underfull \vbox (badness 1629) has occurred while \output is active []
+
+ [6]
+[7 <C:/Users/周/Desktop/noc/figures/overlap.pdf>]
+
+LaTeX Warning: Reference `eq:submeasure' on page 8 undefined on input line 240.
+
+
+
+LaTeX Warning: Reference `eq:linklap' on page 8 undefined on input line 259.
+
+
+LaTeX Warning: Reference `eq:contention' on page 8 undefined on input line 259.
+
+
+
+LaTeX Warning: Reference `eq:linklap' on page 8 undefined on input line 259.
+
+
+LaTeX Warning: Reference `eq:contention' on page 8 undefined on input line 259.
+
+
+) [8]
+
+LaTeX Warning: Reference `fig:encoding' on page 9 undefined on input line 254.
+
+
+LaTeX Warning: Reference `fig:encoding' on page 9 undefined on input line 258.
+
+[9]
+
+LaTeX Warning: File `figures/encodingy.png' not found on input line 263.
+
+
+! Package pdftex.def Error: File `figures/encodingy.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263 ...h=0.6\columnwidth]{figures/encodingy.png}
+                                                  %\vspace{-10pt}
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[10]
+
+LaTeX Warning: Citation `mehran2007spiral' on page 11 undefined on input line 2
+81.
+
+
+Underfull \vbox (badness 2158) has occurred while \output is active []
+
+ [11]
+
+LaTeX Warning: Reference `alg3' on page 12 undefined on input line 291.
+
+
+Underfull \vbox (badness 5316) has occurred while \output is active []
+
+ [12]
+
+LaTeX Warning: Reference `alg3' on page 13 undefined on input line 294.
+
+
+LaTeX Warning: Reference `alg3' on page 13 undefined on input line 296.
+
+
+LaTeX Warning: Reference `alg3' on page 13 undefined on input line 296.
+
+
+LaTeX Warning: Reference `alg3' on page 13 undefined on input line 296.
+
+
+LaTeX Warning: Reference `alg3' on page 13 undefined on input line 296.
+
+
+LaTeX Warning: Reference `alg3' on page 13 undefined on input line 296.
+
+
+LaTeX Warning: Citation `laumanns2002combining' on page 13 undefined on input l
+ine 322.
+
+[13]
+
+LaTeX Warning: Citation `IEICE14' on page 14 undefined on input line 325.
+
+
+LaTeX Warning: Citation `cotton2011multi' on page 14 undefined on input line 32
+5.
+
+
+LaTeX Warning: Citation `atienza2008' on page 14 undefined on input line 325.
+
+
+LaTeX Warning: Citation `kessler2009optimized' on page 14 undefined on input li
+ne 325.
+
+
+LaTeX Warning: Citation `yang2016application' on page 14 undefined on input lin
+e 329.
+
+
+Overfull \hbox (16.37245pt too wide) in paragraph at lines 328--330
+\OT1/cmr/m/n/10 ces-sor clock cy-cle. E2=24$\OML/cmm/m/it/10 W$\OT1/cmr/m/n/10
+ /MHz for per hop cost for router , and E3=6.8$\OML/cmm/m/it/10 W$\OT1/cmr/m/n
+/10 /MHz
+ []
+
+
+LaTeX Warning: Reference `eq:linklap' on page 14 undefined on input line 334.
+
+
+LaTeX Warning: Reference `eq:contention' on page 14 undefined on input line 334
+.
+
+
+LaTeX Warning: Reference `eq:linklap' on page 14 undefined on input line 334.
+
+
+LaTeX Warning: Reference `eq:contention' on page 14 undefined on input line 334
+.
+
+
+LaTeX Warning: Reference `tab:contention' on page 14 undefined on input line 33
+4.
+
+
+Overfull \hbox (13.46965pt too wide) in paragraph at lines 342--343
+[][] 
+ []
+
+No file cp17.bbl.
+[14] [15] (C:\Users\周\Desktop\noc\cp17.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4059 strings out of 495354
+ 51022 string characters out of 3183859
+ 214346 words of memory out of 3000000
+ 7141 multiletter control sequences out of 15000+200000
+ 11091 words of font info for 43 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 29i,11n,24p,1789b,299s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/CTEX/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmbx7.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D:/C
+TEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/CTEX/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi5.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/CTEX/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/CTEX/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi9.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/CTEX/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr6.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr7.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/CTEX/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/CTEX/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmsy5.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pf
+b><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/CTEX/MiKTeX/font
+s/type1/public/amsfonts/cm/cmsy9.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmti10.pfb><D:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><D:/C
+TEX/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on cp17.pdf (15 pages, 357819 bytes).
+PDF statistics:
+ 193 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

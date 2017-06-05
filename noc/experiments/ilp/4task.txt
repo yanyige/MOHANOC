@@ -1,0 +1,218 @@
+Default LOCALE: LC_CTYPE=zh_CN.gb18030;LC_NUMERIC=C;LC_TIME=C;LC_COLLATE=C;LC_MONETARY=C;LC_MESSAGES=C;LC_PAPER=C;LC_NAME=C;LC_ADDRESS=C;LC_TELEPHONE=C;LC_MEASUREMENT=C;LC_IDENTIFICATION=C
+
+<<< setup, at 0s, took 1.49321e+09s
+
+
+<<< generate, at 16.89s, took 17.4233s
+
+Aggregator has done 259101 substitutions...
+Tried aggregator 3 times.
+MIQCP Presolve eliminated 417547 rows and 326075 columns.
+MIQCP Presolve modified 2509 coefficients.
+Aggregator did 339648 substitutions.
+Reduced MIQCP has 1902 rows, 1423 columns, and 7267 nonzeros.
+Reduced MIQCP has 271 binaries, 42 generals, 0 SOSs, and 158 indicators.
+Reduced MIQCP has 196 quadratic constraints.
+Presolve time = 20.44 sec. (12117.94 ticks)
+Probing fixed 86 vars, tightened 729 bounds.
+Probing changed sense of 4 constraints.
+Probing time = 0.01 sec. (3.05 ticks)
+Cover probing fixed 0 vars, tightened 317 bounds.
+Clique table members: 545.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 32 threads.
+Root relaxation solution time = 0.00 sec. (1.63 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      565.0000     0                    240.0000       32         
+      0     0      569.1970    39                    Cone: 40       83         
+      0     0      569.5021    76                    Cone: 51       95         
+      0     0      569.5040    75                    Cone: 60      106         
+      0     0      569.9574    72                    Cone: 67      110         
+      0     0      570.1794    72                    Cone: 74      118         
+      0     0      570.2941    76                    Cone: 81      127         
+      0     0      570.3623    76                    Cone: 88      134         
+      0     0      570.3686    76                    Cone: 95      135         
+      0     0      570.3718    75                   Cone: 102      136         
+      0     0      570.3735    75                   Cone: 109      137         
+      0     0      570.3736    75                   Cone: 116      144         
+      0     0      570.3736    75                    570.3736      144         
+      0     0      605.0000    48                    Cuts: 67      186         
+      0     0      605.0000    35                    Cuts: 19      188         
+      0     2      605.0000    35                    605.0000      188         
+Elapsed time = 20.95 sec. (12207.67 ticks, tree = 0.01 MB, solutions = 0)
+   1099   434      869.0000    43                    605.0000     5127         
+*  1393   479      integral     0     1930.0000      605.0000     7559   68.65%
+*  1707+  383                         1790.0000      605.0000     9675   66.20%
+*  1756+  398                         1700.0000      605.0000    10462   64.41%
+*  2433+  289                         1615.0000      605.0000    12915   62.54%
+*  2472   291      integral     0     1505.0000      605.0000    13047   59.80%
+*  2567+  294                         1440.0000      605.0000    13315   57.99%
+*  3871+  339                         1405.0000      645.0000    16425   54.09%
+*  4095+  377                         1175.0000      645.0000    16790   45.11%
+*  5295+   90                         1075.0000     1075.0000    19007    0.00%
+
+Clique cuts applied:  14
+Implied bound cuts applied:  21
+Mixed integer rounding cuts applied:  4
+Zero-half cuts applied:  2
+Gomory fractional cuts applied:  8
+
+Root node processing (before b&c):
+  Real time             =   21.16 sec. (12361.92 ticks)
+Parallel b&c, 32 threads:
+  Real time             =    2.16 sec. (507.32 ticks)
+  Sync time (average)   =    0.57 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   23.33 sec. (12869.24 ticks)
+
+<<< solve, at 46.37s, took 23.3505s
+
+
+OBJECTIVE: 1075
+
+<<< post process, at 46.39s, took 0.0174739s
+
+// solution (optimal) with objective 1075
+// Quality Incumbent solution:
+// MIQCP objective                                1.0750000000e+03
+// MIQCP solution norm |x| (Total, Max)           4.62671e+05  1.07500e+03
+// MIQCP solution error (Ax=b) (Total, Max)       0.00000e+00  0.00000e+00
+// MIQCP solution error (x'Qx+dx=f) (Total, Max)  0.00000e+00  0.00000e+00
+// MIQCP x bound error (Total, Max)               0.00000e+00  0.00000e+00
+// MIQCP x integrality error (Total, Max)         0.00000e+00  0.00000e+00
+// MIQCP slack bound error (Total, Max)           3.77476e-15  1.11022e-15
+// MIQCP quad. slack bound error (Total, Max)     0.00000e+00  0.00000e+00
+// MIQCP indicator slack bound error (Total, Max) 0.00000e+00  0.00000e+00
+// 
+
+E = 1075;
+Map = [[0 1 0 0]
+             [1 0 0 0]
+             [0 0 0 1]
+             [0 0 1 0]];
+b = [[0 0 0 0]
+             [0 0 0 0]
+             [0 0 0 0]
+             [0 0 0 0]];
+bp = [[[0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]]
+             [[0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]]
+             [[0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]]
+             [[0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]]];
+o = [[0 1 1 1]
+             [0 0 0 1]
+             [0 0 0 1]
+             [0 0 0 0]];
+q = [[[0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]]
+             [[0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]]
+             [[0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]]
+             [[0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]
+                 [0 0 0 0]]];
+conflict = [[[[0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]]
+                 [[0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]]
+                 [[0 0 1 1]
+                     [0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]]
+                 [[0 0 1 1]
+                     [0 0 0 1]
+                     [0 0 0 0]
+                     [0 0 0 0]]]
+             [[[0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]]
+                 [[0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]]
+                 [[0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]]
+                 [[0 0 0 1]
+                     [0 0 0 1]
+                     [0 0 0 0]
+                     [0 0 0 0]]]
+             [[[0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]]
+                 [[0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]]
+                 [[0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]]
+                 [[0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]]]
+             [[[0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]]
+                 [[0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]]
+                 [[0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]]
+                 [[0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]
+                     [0 0 0 0]]]];
+dis = [[0 1 1 2]
+             [1 0 2 1]
+             [1 2 0 1]
+             [2 1 1 0]];
+tao = [[0 245 475 775]];
+se = [[[25 25 375 25]
+                 [375 375 375 375]
+                 [520 520 520 520]
+                 [0 0 0 0]]];
+fe = [[[0 245 475 375]
+                 [375 0 375 775]
+                 [520 520 0 775]
+                 [0 0 0 0]]];
+fin = [[25 375 520 875]];
+
+<<< done, at 46.56s, took 0.17555s
+

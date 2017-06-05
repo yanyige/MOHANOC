@@ -1,0 +1,30 @@
+7m/7m-1-30-400-MOHA-3object-MACHINE4-60s-RAND1.txt
+m = 4 n = 7
+pop = 30 gen = 400
+init...begin
+greedy begin
+greedy done
+初始化生成的机器
+第0个机器
+
+第1个机器
+1 2 4 
+第2个机器
+3 5 6 
+第3个机器
+0 
+Lstart=0.000000
+task 2 =19.000000
+Lstart=0.000000
+task 3 =10.000000
+Lstart=0.000000
+task 1 =47.000000
+Lstart=19.000000
+task 2 =38.000000
+Lstart=47.000000
+task 1 =56.000000
+Lstart=38.000000
+task 2 =55.000000
+Lstart=56.000000
+task 1 =80.000000
+makespan = 80.000000 energy = 2097.000000 p_contention = 0.000000

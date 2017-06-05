@@ -1,0 +1,23 @@
+Default LOCALE: en_US.UTF-8
+
+<<< setup, at 0s, took 1.49342e+09s
+
+
+<<< generate, at 2,489.84s, took 5,747.72s
+
+Presolve time = 97.28 sec. (6066.84 ticks)
+
+Root node processing (before b&c):
+  Real time             =   97.97 sec. (6396.79 ticks)
+Parallel b&c, 32 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   97.97 sec. (6396.79 ticks)
+
+<<< solve, at 2,572.91s, took 99.647s
+
+
+<<< no solution, at 2,572.91s, took 7.86781e-06s
+

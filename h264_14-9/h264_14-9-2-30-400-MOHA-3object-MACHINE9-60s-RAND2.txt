@@ -1,0 +1,3 @@
+m = 4 n = 14
+pop = 30 gen = 400
+init...begin
