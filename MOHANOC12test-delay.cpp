@@ -1,3 +1,4 @@
+/*该版本p-connention的目标函数值计算改变了*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -34,7 +35,7 @@ const double extra_E=1;//能耗惩罚
 const int meshfactor=2;//2*2
 const double t_dis=7.0;//线路传输速度
 const double t_node=8.0;//节点传输速度
-// ****************************************************************************************sdkgsdgasdgasldjhasdhasdjhdlasdhaskdlhasld
+// ****************************************************************************************
 const double xi= 8.0;//冲突间隔
 const double xita=1.0;//xita-dominance
 int mycycle;
@@ -51,6 +52,8 @@ clock_t start, finish;
 double start_time;
 double real_time;
 double exe_time;
+double sum_communication=0;
+double num_communication=0;
 //*******
 //**pop - Population size
 //**gen - Total number of generations
@@ -314,11 +317,13 @@ for(int ii=0;ii<n;ii++){
                             destination_path=task_in_machine[position];
                             x_temp=abs(task_in_machine[kk]%meshfactor-task_in_machine[position]%meshfactor);
                             y_temp=abs(task_in_machine[kk]/meshfactor-task_in_machine[position]/meshfactor);
-                            while(1) //printf("xtemp = %d ytemp=%d\n", x_temp, y_temp);
+                            while(1) //
                             {
+//                                printf("xtemp = %d ytemp=%d\n", x_temp, y_temp);
                                 if(x_temp==0&&y_temp==0)
                                 {
                                     ltemp+=t_node;//目标核上的路由器也有个花费
+//                                    printf("final:%lf\n",ltemp);
                                     break;
                                 }
                                 else
@@ -330,9 +335,11 @@ for(int ii=0;ii<n;ii++){
                                         {
                                             //向上传
                                             y_temp--;
+//                                            printf("ytemp=%d\n",y_temp);
                                             if(path[source_path][source_path-meshfactor][0]<=ltemp && ltemp<path[source_path][source_path-meshfactor][1])
                                             {
-                                                ltemp+=path[source_path][source_path-meshfactor][1]+c[kk][position]*t_dis+t_node;
+                                                ltemp=path[source_path][source_path-meshfactor][1]+c[kk][position]*t_dis+t_node;
+//                                                printf("con ltemp:%lf\n",ltemp);
                                                 path[source_path][source_path-meshfactor][1]=ltemp;
                                                 path[source_path-meshfactor][source_path][0]=path[source_path][source_path-meshfactor][0];
                                                 path[source_path-meshfactor][source_path][1]=ltemp;//一条路径被占用，反过来也是占用的
@@ -342,7 +349,8 @@ for(int ii=0;ii<n;ii++){
                                             {
                                                 path[source_path][source_path-meshfactor][0]=ltemp;
                                                 path[source_path-meshfactor][source_path][0]=ltemp;
-                                                ltemp+=c[kk][position]*t_dis+t_node;
+                                                ltemp+=c[kk][position]*t_dis+t_node;//这里有问题，从同一个起点出来的数据会有冲突
+//                                                printf("ok %lf\n",ltemp);
                                                 path[source_path][source_path-meshfactor][1]=ltemp;
                                                 path[source_path-meshfactor][source_path][1]=ltemp;
                                                 source_path=source_path-meshfactor;
@@ -355,7 +363,7 @@ for(int ii=0;ii<n;ii++){
                                             y_temp--;
                                             if(path[source_path][source_path+meshfactor][0]<=ltemp && ltemp<path[source_path][source_path+meshfactor][1])
                                             {
-                                                ltemp+=path[source_path][source_path+meshfactor][1]+c[kk][position]*t_dis+t_node;
+                                                ltemp=path[source_path][source_path+meshfactor][1]+c[kk][position]*t_dis+t_node;
 //                                                printf("com-ltemp=%lf\n",ltemp);
                                                 path[source_path][source_path+meshfactor][1]=ltemp;
                                                 path[source_path+meshfactor][source_path][0]=path[source_path][source_path+meshfactor][0];
@@ -382,7 +390,7 @@ for(int ii=0;ii<n;ii++){
                                             x_temp--;
                                             if(path[source_path][source_path-1][0]<=ltemp && ltemp<path[source_path][source_path-1][1])
                                             {
-                                                ltemp+=path[source_path][source_path-1][1]+c[kk][position]*t_dis+t_node;
+                                                ltemp=path[source_path][source_path-1][1]+c[kk][position]*t_dis+t_node;
                                                 path[source_path][source_path-1][1]=ltemp;
                                                 path[source_path-1][source_path][0]=path[source_path][source_path-1][0];
                                                 path[source_path-1][source_path][1]=ltemp;//一条路径被占用，反过来也是占用的
@@ -404,7 +412,7 @@ for(int ii=0;ii<n;ii++){
                                             x_temp--;
                                             if(path[source_path][source_path+1][0]<=ltemp && ltemp<path[source_path][source_path+1][1])
                                             {
-                                                ltemp+=path[source_path][source_path+1][1]+c[kk][position]*t_dis+t_node;
+                                                ltemp=path[source_path][source_path+1][1]+c[kk][position]*t_dis+t_node;
                                                 path[source_path][source_path+1][1]=ltemp;
                                                 path[source_path+1][source_path][0]=path[source_path][source_path+1][0];
                                                 path[source_path+1][source_path][1]=ltemp;//一条路径被占用，反过来也是占用的
@@ -449,7 +457,9 @@ for(int ii=0;ii<n;ii++){
 //                        }
                     }
                     tao[flag_end[ii]][position]=Lstart;
+//                    printf("ss=%lf\n",Lstart);
                     E[ii]=tao[flag_end[ii]][position]+t[ii][position];
+//                    printf("exe time:%lf\n",t[ii][position]);
                     taoend[flag_end[ii]][position]=E[ii];//每个任务的完成时间
 //                    printf("task %d =%lf\n",ii,E[ii]);
 //                    for(int kk=0; kk<n; kk++)
@@ -540,7 +550,62 @@ for(int ii=0;ii<n;ii++){
     i->idltime=idltime;
     //i->sleeptime=sleeptime;
     //计算冲突概率，没有同源情况发生
-    for(int cyc=0; cyc<mycycle; cyc++)
+//    for(int cyc=0; cyc<mycycle; cyc++)
+//    {
+//        for(int ii=0; ii<n; ii++)
+//        {
+//            for(int jj=0; jj<n; jj++)
+//            {
+//                if(abs(taoend[cyc][ii]-taoend[cyc][jj])<=xi)
+//                {
+//                    for(int p=0; p<n; p++)
+//                    {
+//                        for(int qq=0; qq<n; qq++)
+//                        {
+//                            if(c[ii][p]>0&&c[jj][qq]>0)
+//                            {
+//                                pp[ii][jj]=pp[ii][jj]+pc[task_in_machine[ii]][task_in_machine[p]][task_in_machine[jj]][task_in_machine[qq]];
+//                            }
+//                        }
+//                    }
+//                }
+//            }
+//        }
+//    }
+//    for(int ii=0; ii<n; ii++)
+//    {
+//        for(int jj=0; jj<n; jj++)
+//        {
+//            com_sum+=pp[ii][jj];
+//            //printf("%lf\n",pp[ii][jj]);
+//        }
+//    }
+//    for(int ii=0; ii<n; ii++)
+//    {
+//        for(int jj=0; jj<n; jj++)
+//        {
+//            i-> p_contention = i->p_contention+abs(pp[ii][jj]-com_sum/(n*mycycle));
+//            //printf("pc:%lf\n",i->p_contention);
+//        }
+//    }
+      //新的计算方法
+      double alpha,beta,xxiittaa;
+      alpha=n/(meshfactor*(meshfactor+1));
+      beta=2*(meshfactor-1)*sum_communication;
+      xxiittaa=num_communication/(2*meshfactor*(meshfactor-1));
+      double temp1=0,temp2=0;
+     for(int cyc=0; cyc<mycycle; cyc++)
+     {
+        for(int ii=0; ii<n-1; ii++)
+        {
+            for(int jj=ii+1; jj<n; jj++)
+            {
+                if(c[ii][jj]>0)
+                    temp1+=(1-alpha)/beta*sum_communication*D[task_in_machine[ii]][task_in_machine[jj]];
+            }
+        }
+    }
+     for(int cyc=0; cyc<mycycle; cyc++)
     {
         for(int ii=0; ii<n; ii++)
         {
@@ -554,7 +619,7 @@ for(int ii=0;ii<n;ii++){
                         {
                             if(c[ii][p]>0&&c[jj][qq]>0)
                             {
-                                pp[ii][jj]=pp[ii][jj]+pc[task_in_machine[ii]][task_in_machine[p]][task_in_machine[jj]][task_in_machine[qq]];
+                                temp2+=alpha/xxiittaa*gamma[task_in_machine[ii]][task_in_machine[p]][task_in_machine[jj]][task_in_machine[qq]];
                             }
                         }
                     }
@@ -562,22 +627,7 @@ for(int ii=0;ii<n;ii++){
             }
         }
     }
-    for(int ii=0; ii<n; ii++)
-    {
-        for(int jj=0; jj<n; jj++)
-        {
-            com_sum+=pp[ii][jj];
-            //printf("%lf\n",pp[ii][jj]);
-        }
-    }
-    for(int ii=0; ii<n; ii++)
-    {
-        for(int jj=0; jj<n; jj++)
-        {
-            i-> p_contention = i->p_contention+abs(pp[ii][jj]-com_sum/(n*mycycle));
-            //printf("pc:%lf\n",i->p_contention);
-        }
-    }
+    i-> p_contention=temp1+temp2;
 }
 
 // 非支配排序
@@ -1184,25 +1234,25 @@ void insertMachine(Individual *i, int a, int b, int c)   // a = taskIndex[nowPoi
     return ;
 }
 
-void swapMachine(Individual *i, int a, int b, int c) { // a = taskIndex[nowPoint], b = nowPoint, c = temp
-    vector<int>:: iterator iter;
-    int j = 0;
-    int k = 0;
-    //printf("value = %d c = %d\n", i->machine[b][a], c);
-    // delete temp
-    for(j = 0 ; j < m ; j ++) {
-        for(iter = i->machine[j].begin(); iter != i->machine[j].end(); iter ++) {
-            if((*iter) == c) {
-                //printf("b = %d a= %d\n", b, a);
-                int temp = c;
-                (*iter) = i->machine[b][a];
-                i->machine[b][a] = temp;
-                return ;
-            }
-        }
-    }
-    return ;
-}
+//void swapMachine(Individual *i, int a, int b, int c) { // a = taskIndex[nowPoint], b = nowPoint, c = temp
+//    vector<int>:: iterator iter;
+//    int j = 0;
+//    int k = 0;
+//    //printf("value = %d c = %d\n", i->machine[b][a], c);
+//    // delete temp
+//    for(j = 0 ; j < m ; j ++) {
+//        for(iter = i->machine[j].begin(); iter != i->machine[j].end(); iter ++) {
+//            if((*iter) == c) {
+//                //printf("b = %d a= %d\n", b, a);
+//                int temp = c;
+//                (*iter) = i->machine[b][a];
+//                i->machine[b][a] = temp;
+//                return ;
+//            }
+//        }
+//    }
+//    return ;
+//}
 
 int test(int task)
 {
@@ -1271,10 +1321,10 @@ void repair_maxtasks(Individual *i) {
                         }
                         for(int kk = 0; kk < i->machine[l].size(); kk ++) {
 //                            printf("c[%d][%d]=%lf\n", tempV[0], i->machine[l][kk], c[tempV[0]][i->machine[l][kk]]);
-                            if(c[tempV[tempV.size() - 1]][i->machine[l][kk]] > eps_0) {
+                            if(c[tempV[0]][i->machine[l][kk]] > eps_0) {
 //                                printf("kk = %d\n", kk);
-                                i->machine[l].insert(i->machine[l].begin() + kk, tempV[tempV.size() - 1]);
-                                tempV.erase(tempV.end() - 1);
+                                i->machine[l].insert(i->machine[l].begin() + kk, tempV[0]);
+                                tempV.erase(tempV.begin());
                                 added = true;
                                 break;
                             }
@@ -1289,8 +1339,8 @@ void repair_maxtasks(Individual *i) {
                 if(added == false) {
                     for(int l = 0; l < m; l ++) {
                         if(i->machine[l].size() < MAXTASKS) {
-                            i->machine[l].push_back(tempV[tempV.size() - 1]);
-                            tempV.erase(tempV.end() - 1);
+                            i->machine[l].push_back(tempV[0]);
+                            tempV.erase(tempV.begin());
                             break;
                         }
                     }
@@ -1321,14 +1371,14 @@ void repair_segment(Individual *i)
 {
     vector<int>:: iterator iter;
     /***************initialize******************/
-//    printf("repair前的结果\n");
-//    for(int j = 0 ; j < m ; j ++){
-//        printf("第%d个机器: ", j);
-//        for(iter = i->machine[j].begin(); iter != i->machine[j].end() ; iter ++){
-//            printf("%d ", (*iter));
-//        }
-//        printf("\n");
-//    }
+    printf("repair前的结果\n");
+    for(int j = 0 ; j < m ; j ++){
+        printf("第%d个机器: ", j);
+        for(iter = i->machine[j].begin(); iter != i->machine[j].end() ; iter ++){
+            printf("%d ", (*iter));
+        }
+        printf("\n");
+    }
     memset(taskIndex, 0, sizeof(taskIndex));
     int acTask = 0;
     int nowPoint = 0;
@@ -1373,7 +1423,7 @@ void repair_segment(Individual *i)
             int machine = rand() % m;
 
             int temp = rand() % m;
-//            printf("选择的机器是%d\n", temp);
+            printf("选择的机器是%d\n", temp);
             while(depentTask[temp] == -1) temp = rand() % m;
             int number = rand() % m;
             while(depentTask[number] == -1) number = rand() % m;
@@ -1397,104 +1447,6 @@ void repair_segment(Individual *i)
 //            }
         }
     }
-//    printf("repair后的结果\n");
-//    for(int j = 0 ; j < m ; j ++){
-//        printf("第%d个机器: ", j);
-//        for(iter = i->machine[j].begin(); iter != i->machine[j].end() ; iter ++){
-//            printf("%d ", (*iter));
-//        }
-//        printf("\n");
-//    }
-}
-
-void repair_segment1(Individual *i)
-{
-    vector<int>:: iterator iter;
-    /***************initialize******************/
-//    printf("repair前的结果\n");
-//    for(int j = 0 ; j < m ; j ++){
-//        printf("第%d个机器: ", j);
-//        for(iter = i->machine[j].begin(); iter != i->machine[j].end() ; iter ++){
-//            printf("%d ", (*iter));
-//        }
-//        printf("\n");
-//    }
-    memset(taskIndex, 0, sizeof(taskIndex));
-    int acTask = 0;
-    int nowPoint = 0;
-    int depentTask[MAXM];
-    bool dependent = false;
-    memset(taskUsed, 0, sizeof(taskUsed));
-    doneSet.clear();
-    /*******************done********************/
-    while(acTask < n)
-    {
-//        printf("actask = %d\n", acTask);
-        dependent = false;
-        for(nowPoint = 0 ; nowPoint < m ; nowPoint ++)   // 对所有的指针进行循环
-        {
-//            printf("size = %d\n", i->machine[nowPoint].size());
-//            printf("taskindex = %d\n", taskIndex[nowPoint]);
-            if(i->machine[nowPoint].size() == taskIndex[nowPoint])
-            {
-//                    dependent = true;
-                depentTask[nowPoint] = -1; // 如果指针指向最后一个任务的后面，说明这个机器已经完成，他的依赖是-1.
-                continue; // 如果指针指向最后一个元素，跳出
-            }
-            int nowTask = i->machine[nowPoint].at(taskIndex[nowPoint]);
-//            printf("nowPoint = %d\n", nowPoint);
-//            printf("nowTask = %d\n", nowTask);
-            depentTask[nowPoint] = test(nowTask);
-//            printf("depentTask[nowPoint] = %d\n", depentTask[nowPoint]);
-            if(depentTask[nowPoint] == -1)   // 如果能符合依赖，指针后移并且可满足的机器数+1.
-            {
-                taskIndex[nowPoint] ++;
-                acTask ++;
-                taskUsed[nowTask] = true;
-                doneSet.insert(nowTask);
-                dependent = true;
-                break;
-            }
-        }
-
-        if(dependent == false)
-        {
-//            printf("不符合依赖\n");
-            int machine = rand() % m;
-
-            int temp = rand() % m;
-//            printf("选择的机器是%d\n", temp);
-            while(depentTask[temp] == -1) temp = rand() % m;
-            int number = rand() % m;
-            while(depentTask[number] == -1) number = rand() % m;
-            swapMachine(i, taskIndex[temp], temp, depentTask[temp]);
-//            printf("插入后的结果\n");
-//            for(int j = 0 ; j < m ; j ++){
-//                printf("第%d个机器: ", j);
-//                for(iter = i->machine[j].begin(); iter != i->machine[j].end() ; iter ++){
-//                    printf("%d ", (*iter));
-//                }
-//                printf("\n");
-//            }
-//            for(int machine=0; machine<m; machine++)
-//            {
-//                if(depentTask[machine]==-1)
-//                    continue;
-//                else
-//                {
-//                    insertMachine(i, taskIndex[machine], machine, depentTask[machine]);
-//                }
-//            }
-        }
-    }
-//    printf("repair后的结果\n");
-//    for(int j = 0 ; j < m ; j ++){
-//        printf("第%d个机器: ", j);
-//        for(iter = i->machine[j].begin(); iter != i->machine[j].end() ; iter ++){
-//            printf("%d ", (*iter));
-//        }
-//        printf("\n");
-//    }
 }
 
 void swap_machine(Individual *individual, int nowM, int nowPos, int toM, int toPos)
@@ -1653,15 +1605,6 @@ void updateElistCollection(Individual *i)
 
 void swap_localsearch(Individual *individual)
 {
-    vector<int>:: iterator iter;
-//    printf("localsearch前的结果\n");
-//    for(int j = 0 ; j < m ; j ++){
-//        printf("第%d个机器: ", j);
-//        for(iter = individual->machine[j].begin(); iter != individual->machine[j].end() ; iter ++){
-//            printf("%d ", (*iter));
-//        }
-//        printf("\n");
-//    }
     /***************initialize******************/
     int flag[MAXN];
     int k = 1;
@@ -1947,19 +1890,16 @@ void make_new_pop(Individual individuals[], int length)
 //            printf("\n");
 //        }
         //Swap_localsearch(&new_individual);
-//        printf("repair_segment begin \n");
+        printf("repair_segment begin \n");
         repair_segment(&new_individual);
-//        printf("repair_segment done \n");
-//        printf("repair_maxtasks begin \n");
+        printf("repair_segment done \n");
+        printf("repair_maxtasks begin \n");
         repair_maxtasks(&new_individual);
-//        printf("repair_maxtasks done \n");
-//        printf("repair_segment1 begin \n");
-        repair_segment1(&new_individual);
-//        printf("repair_segment1 done \n");
-//        printf("evaluate begin \n");
+        printf("repair_maxtasks done \n");
+        printf("evaluate begin \n");
         evaluate_objective(&new_individual);
-//        printf("evaluate done\n");
-//        printf("swap begin\n");
+        printf("evaluate done\n");
+        printf("swap begin\n");
         swap_localsearch(&new_individual);
 //        printf("swap done\n");
         copy_individual(&individuals[length + i], &new_individual);
@@ -2347,9 +2287,7 @@ void init()
         }
 
         repair_segment(&Collection[i]);
-//        printf("testtest\n");
         repair_maxtasks(&Collection[i]);
-        repair_segment1(&Collection[i]);
         for(int j = 0; j < m; j ++)
         {
             if(Collection[i].machine[j].size() != 0)
@@ -2358,13 +2296,13 @@ void init()
             }
         }
     }
-//    Collection[0].machine[1].push_back(1);
-//    Collection[0].machine[1].push_back(2);
-//    Collection[0].machine[1].push_back(4);
-//    Collection[0].machine[2].push_back(3);
-//    Collection[0].machine[2].push_back(5);
-//    Collection[0].machine[2].push_back(6);
-//    Collection[0].machine[3].push_back(0);
+    Collection[0].machine[1].push_back(1);
+    Collection[0].machine[1].push_back(2);
+    Collection[0].machine[1].push_back(4);
+    Collection[0].machine[2].push_back(3);
+    Collection[0].machine[2].push_back(5);
+    Collection[0].machine[2].push_back(6);
+    Collection[0].machine[3].push_back(0);
     for(int i = 0;i < m; i ++) {
     if(Collection[0].machine[i].size()) {
         Collection[0].mesh[i] = 1;
@@ -2374,19 +2312,16 @@ void init()
     }
     repair_segment(&Collection[0]);
     repair_maxtasks(&Collection[0]);
-
-//    for(int iiii = 0; iiii < pop * 2; iiii ++) {
-//        printf("*****************第%d个种群******************\n", iiii);
-//        for(int i = 0 ; i < m ; i ++)
-//        {
-//            printf("第%d个机器\n", i);
-//            for(int j = 0; j < Collection[iiii].machine[i].size(); j ++)
-//            {
-//                printf("%d ", Collection[iiii].machine[i][j]);
-//            }
-//            printf("\n");
-//        }
-//    }
+    printf("初始化生成的机器\n");
+    for(int i = 0 ; i < m ; i ++)
+    {
+        printf("第%d个机器\n", i);
+        for(int j = 0; j < Collection[0].machine[i].size(); j ++)
+        {
+            printf("%d ", Collection[0].machine[i][j]);
+        }
+        printf("\n");
+    }
     for(int i = 0;i < m; i ++) {
         if(Collection[0].machine[i].size()) {
             Collection[0].mesh[i] = 1;
@@ -2395,8 +2330,7 @@ void init()
         }
     }
     evaluate_objective(&Collection[0]);
-
-//    printf("makespan = %lf energy = %lf p_contention = %lf\n", Collection[0].makespan, Collection[0].energy, Collection[0].p_contention);
+    printf("makespan = %lf energy = %lf p_contention = %lf\n", Collection[0].makespan, Collection[0].energy, Collection[0].p_contention);
 //    exit(0);
 }
 
@@ -3305,6 +3239,8 @@ void solve()
             scanf("%lf", &c[i][j]);
             if(c[i][j]>0)
             {
+                sum_communication+=c[i][j];
+                num_communication++;
                 todep[0][i]++;
                 isdep[0][j]++;
             }
@@ -3534,7 +3470,7 @@ int main(int argc, char **argv)
     MAXTASKS = atoi(argv[7]);
     strcat(outPutFile, ".txt");
     freopen(testcase, "r", stdin);
-    freopen("test1.txt", "w", stdout);
+//    freopen("test1.txt", "w", stdout);
 //    freopen(outPutFile, "w", stdout);
     printf("%s\n", outPutFile);
     start = clock();

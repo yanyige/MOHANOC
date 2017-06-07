@@ -3,28 +3,1284 @@ m = 4 n = 7
 pop = 30 gen = 400
 init...begin
 greedy begin
+***************合并 done*****************
 greedy done
-初始化生成的机器
+init...done
+*****************************t=0*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+1 generation time: 0.14 s
+*****************************t=1*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+2 generation time: 0.30 s
+*****************************t=2*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+3 generation time: 0.42 s
+*****************************t=3*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+4 generation time: 0.55 s
+*****************************t=4*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+5 generation time: 0.66 s
+*****************************t=5*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+6 generation time: 0.80 s
+*****************************t=6*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+7 generation time: 0.92 s
+*****************************t=7*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+8 generation time: 1.08 s
+*****************************t=8*****************************
+9 generation time: 1.22 s
+*****************************t=9*****************************
+10 generation time: 1.36 s
+*****************************t=10*****************************
+11 generation time: 1.49 s
+*****************************t=11*****************************
+12 generation time: 1.61 s
+*****************************t=12*****************************
+13 generation time: 1.74 s
+*****************************t=13*****************************
+14 generation time: 1.86 s
+*****************************t=14*****************************
+15 generation time: 1.99 s
+*****************************t=15*****************************
+16 generation time: 2.11 s
+*****************************t=16*****************************
+17 generation time: 2.23 s
+*****************************t=17*****************************
+18 generation time: 2.38 s
+*****************************t=18*****************************
+19 generation time: 2.48 s
+*****************************t=19*****************************
+20 generation time: 2.63 s
+*****************************t=20*****************************
+21 generation time: 2.75 s
+*****************************t=21*****************************
+22 generation time: 2.88 s
+*****************************t=22*****************************
+23 generation time: 3.00 s
+*****************************t=23*****************************
+24 generation time: 3.13 s
+*****************************t=24*****************************
+25 generation time: 3.25 s
+*****************************t=25*****************************
+26 generation time: 3.38 s
+*****************************t=26*****************************
+insert to Collection
+27 generation time: 3.52 s
+*****************************t=27*****************************
+insert to Collection
+insert to Collection
+28 generation time: 3.64 s
+*****************************t=28*****************************
+insert to Collection
+insert to Collection
+29 generation time: 3.80 s
+*****************************t=29*****************************
+insert to Collection
+insert to Collection
+30 generation time: 3.94 s
+*****************************t=30*****************************
+insert to Collection
+insert to Collection
+31 generation time: 4.06 s
+*****************************t=31*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+32 generation time: 4.22 s
+*****************************t=32*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+33 generation time: 4.36 s
+*****************************t=33*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+34 generation time: 4.50 s
+*****************************t=34*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+35 generation time: 4.64 s
+*****************************t=35*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+36 generation time: 4.78 s
+*****************************t=36*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+37 generation time: 4.94 s
+*****************************t=37*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+38 generation time: 5.08 s
+*****************************t=38*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+39 generation time: 5.22 s
+*****************************t=39*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+40 generation time: 5.34 s
+*****************************t=40*****************************
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+insert to Collection
+41 generation time: 5.45 s
+*****************************t=41*****************************
+42 generation time: 5.58 s
+*****************************t=42*****************************
+43 generation time: 5.70 s
+*****************************t=43*****************************
+44 generation time: 5.81 s
+*****************************t=44*****************************
+45 generation time: 5.95 s
+*****************************t=45*****************************
+46 generation time: 6.06 s
+*****************************t=46*****************************
+47 generation time: 6.20 s
+*****************************t=47*****************************
+48 generation time: 6.31 s
+*****************************t=48*****************************
+49 generation time: 6.44 s
+*****************************t=49*****************************
+50 generation time: 6.58 s
+*****************************t=50*****************************
+51 generation time: 6.70 s
+*****************************t=51*****************************
+52 generation time: 6.83 s
+*****************************t=52*****************************
+53 generation time: 6.97 s
+*****************************t=53*****************************
+54 generation time: 7.09 s
+*****************************t=54*****************************
+55 generation time: 7.24 s
+*****************************t=55*****************************
+56 generation time: 7.38 s
+*****************************t=56*****************************
+57 generation time: 7.52 s
+*****************************t=57*****************************
+58 generation time: 7.64 s
+*****************************t=58*****************************
+59 generation time: 7.78 s
+*****************************t=59*****************************
+60 generation time: 7.89 s
+*****************************t=60*****************************
+61 generation time: 8.02 s
+*****************************t=61*****************************
+62 generation time: 8.16 s
+*****************************t=62*****************************
+63 generation time: 8.27 s
+*****************************t=63*****************************
+64 generation time: 8.41 s
+*****************************t=64*****************************
+65 generation time: 8.55 s
+*****************************t=65*****************************
+66 generation time: 8.66 s
+*****************************t=66*****************************
+67 generation time: 8.80 s
+*****************************t=67*****************************
+68 generation time: 8.94 s
+*****************************t=68*****************************
+69 generation time: 9.06 s
+*****************************t=69*****************************
+70 generation time: 9.20 s
+*****************************t=70*****************************
+71 generation time: 9.33 s
+*****************************t=71*****************************
+72 generation time: 9.45 s
+*****************************t=72*****************************
+73 generation time: 9.58 s
+*****************************t=73*****************************
+74 generation time: 9.70 s
+*****************************t=74*****************************
+75 generation time: 9.83 s
+*****************************t=75*****************************
+76 generation time: 9.95 s
+*****************************t=76*****************************
+77 generation time: 10.08 s
+*****************************t=77*****************************
+78 generation time: 10.22 s
+*****************************t=78*****************************
+79 generation time: 10.34 s
+*****************************t=79*****************************
+80 generation time: 10.47 s
+*****************************t=80*****************************
+81 generation time: 10.59 s
+*****************************t=81*****************************
+82 generation time: 10.72 s
+*****************************t=82*****************************
+83 generation time: 10.84 s
+*****************************t=83*****************************
+84 generation time: 10.97 s
+*****************************t=84*****************************
+85 generation time: 11.08 s
+*****************************t=85*****************************
+86 generation time: 11.20 s
+*****************************t=86*****************************
+87 generation time: 11.34 s
+*****************************t=87*****************************
+88 generation time: 11.45 s
+*****************************t=88*****************************
+89 generation time: 11.59 s
+*****************************t=89*****************************
+90 generation time: 11.73 s
+*****************************t=90*****************************
+91 generation time: 11.84 s
+*****************************t=91*****************************
+92 generation time: 11.98 s
+*****************************t=92*****************************
+93 generation time: 12.13 s
+*****************************t=93*****************************
+94 generation time: 12.25 s
+*****************************t=94*****************************
+95 generation time: 12.39 s
+*****************************t=95*****************************
+96 generation time: 12.52 s
+*****************************t=96*****************************
+97 generation time: 12.63 s
+*****************************t=97*****************************
+98 generation time: 12.77 s
+*****************************t=98*****************************
+99 generation time: 12.89 s
+*****************************t=99*****************************
+100 generation time: 13.03 s
+*****************************t=100*****************************
+101 generation time: 13.17 s
+*****************************t=101*****************************
+102 generation time: 13.30 s
+*****************************t=102*****************************
+103 generation time: 13.44 s
+*****************************t=103*****************************
+104 generation time: 13.56 s
+*****************************t=104*****************************
+105 generation time: 13.69 s
+*****************************t=105*****************************
+106 generation time: 13.81 s
+*****************************t=106*****************************
+107 generation time: 13.95 s
+*****************************t=107*****************************
+108 generation time: 14.06 s
+*****************************t=108*****************************
+109 generation time: 14.20 s
+*****************************t=109*****************************
+110 generation time: 14.33 s
+*****************************t=110*****************************
+111 generation time: 14.44 s
+*****************************t=111*****************************
+112 generation time: 14.59 s
+*****************************t=112*****************************
+113 generation time: 14.72 s
+*****************************t=113*****************************
+114 generation time: 14.84 s
+*****************************t=114*****************************
+115 generation time: 14.98 s
+*****************************t=115*****************************
+116 generation time: 15.11 s
+*****************************t=116*****************************
+117 generation time: 15.25 s
+*****************************t=117*****************************
+118 generation time: 15.39 s
+*****************************t=118*****************************
+119 generation time: 15.53 s
+*****************************t=119*****************************
+120 generation time: 15.66 s
+*****************************t=120*****************************
+121 generation time: 15.78 s
+*****************************t=121*****************************
+122 generation time: 15.95 s
+*****************************t=122*****************************
+123 generation time: 16.08 s
+*****************************t=123*****************************
+124 generation time: 16.22 s
+*****************************t=124*****************************
+125 generation time: 16.34 s
+*****************************t=125*****************************
+126 generation time: 16.48 s
+*****************************t=126*****************************
+127 generation time: 16.61 s
+*****************************t=127*****************************
+128 generation time: 16.73 s
+*****************************t=128*****************************
+129 generation time: 16.86 s
+*****************************t=129*****************************
+130 generation time: 16.97 s
+*****************************t=130*****************************
+131 generation time: 17.11 s
+*****************************t=131*****************************
+132 generation time: 17.23 s
+*****************************t=132*****************************
+133 generation time: 17.39 s
+*****************************t=133*****************************
+134 generation time: 17.53 s
+*****************************t=134*****************************
+135 generation time: 17.64 s
+*****************************t=135*****************************
+136 generation time: 17.78 s
+*****************************t=136*****************************
+137 generation time: 17.92 s
+*****************************t=137*****************************
+138 generation time: 18.05 s
+*****************************t=138*****************************
+139 generation time: 18.17 s
+*****************************t=139*****************************
+140 generation time: 18.30 s
+*****************************t=140*****************************
+141 generation time: 18.42 s
+*****************************t=141*****************************
+142 generation time: 18.56 s
+*****************************t=142*****************************
+143 generation time: 18.67 s
+*****************************t=143*****************************
+144 generation time: 18.81 s
+*****************************t=144*****************************
+145 generation time: 18.95 s
+*****************************t=145*****************************
+146 generation time: 19.08 s
+*****************************t=146*****************************
+147 generation time: 19.20 s
+*****************************t=147*****************************
+148 generation time: 19.33 s
+*****************************t=148*****************************
+149 generation time: 19.45 s
+*****************************t=149*****************************
+150 generation time: 19.58 s
+*****************************t=150*****************************
+151 generation time: 19.70 s
+*****************************t=151*****************************
+152 generation time: 19.83 s
+*****************************t=152*****************************
+153 generation time: 19.97 s
+*****************************t=153*****************************
+154 generation time: 20.08 s
+*****************************t=154*****************************
+155 generation time: 20.20 s
+*****************************t=155*****************************
+156 generation time: 20.34 s
+*****************************t=156*****************************
+157 generation time: 20.47 s
+*****************************t=157*****************************
+158 generation time: 20.59 s
+*****************************t=158*****************************
+159 generation time: 20.73 s
+*****************************t=159*****************************
+160 generation time: 20.86 s
+*****************************t=160*****************************
+161 generation time: 20.98 s
+*****************************t=161*****************************
+162 generation time: 21.11 s
+*****************************t=162*****************************
+163 generation time: 21.23 s
+*****************************t=163*****************************
+164 generation time: 21.38 s
+*****************************t=164*****************************
+165 generation time: 21.48 s
+*****************************t=165*****************************
+166 generation time: 21.61 s
+*****************************t=166*****************************
+167 generation time: 21.73 s
+*****************************t=167*****************************
+168 generation time: 21.84 s
+*****************************t=168*****************************
+169 generation time: 21.98 s
+*****************************t=169*****************************
+170 generation time: 22.11 s
+*****************************t=170*****************************
+171 generation time: 22.23 s
+*****************************t=171*****************************
+172 generation time: 22.39 s
+*****************************t=172*****************************
+173 generation time: 22.53 s
+*****************************t=173*****************************
+174 generation time: 22.66 s
+*****************************t=174*****************************
+175 generation time: 22.78 s
+*****************************t=175*****************************
+176 generation time: 22.89 s
+*****************************t=176*****************************
+177 generation time: 23.03 s
+*****************************t=177*****************************
+178 generation time: 23.17 s
+*****************************t=178*****************************
+179 generation time: 23.30 s
+*****************************t=179*****************************
+180 generation time: 23.42 s
+*****************************t=180*****************************
+181 generation time: 23.56 s
+*****************************t=181*****************************
+182 generation time: 23.69 s
+*****************************t=182*****************************
+183 generation time: 23.83 s
+*****************************t=183*****************************
+184 generation time: 23.95 s
+*****************************t=184*****************************
+185 generation time: 24.06 s
+*****************************t=185*****************************
+186 generation time: 24.20 s
+*****************************t=186*****************************
+187 generation time: 24.33 s
+*****************************t=187*****************************
+188 generation time: 24.45 s
+*****************************t=188*****************************
+189 generation time: 24.58 s
+*****************************t=189*****************************
+190 generation time: 24.70 s
+*****************************t=190*****************************
+191 generation time: 24.83 s
+*****************************t=191*****************************
+192 generation time: 24.95 s
+*****************************t=192*****************************
+193 generation time: 25.08 s
+*****************************t=193*****************************
+194 generation time: 25.20 s
+*****************************t=194*****************************
+195 generation time: 25.34 s
+*****************************t=195*****************************
+196 generation time: 25.45 s
+*****************************t=196*****************************
+197 generation time: 25.59 s
+*****************************t=197*****************************
+198 generation time: 25.72 s
+*****************************t=198*****************************
+199 generation time: 25.83 s
+*****************************t=199*****************************
+200 generation time: 25.97 s
+*****************************t=200*****************************
+201 generation time: 26.09 s
+*****************************t=201*****************************
+202 generation time: 26.22 s
+*****************************t=202*****************************
+203 generation time: 26.36 s
+*****************************t=203*****************************
+204 generation time: 26.48 s
+*****************************t=204*****************************
+205 generation time: 26.61 s
+*****************************t=205*****************************
+206 generation time: 26.75 s
+*****************************t=206*****************************
+207 generation time: 26.88 s
+*****************************t=207*****************************
+208 generation time: 27.02 s
+*****************************t=208*****************************
+209 generation time: 27.14 s
+*****************************t=209*****************************
+210 generation time: 27.27 s
+*****************************t=210*****************************
+211 generation time: 27.39 s
+*****************************t=211*****************************
+212 generation time: 27.50 s
+*****************************t=212*****************************
+213 generation time: 27.63 s
+*****************************t=213*****************************
+214 generation time: 27.77 s
+*****************************t=214*****************************
+215 generation time: 27.89 s
+*****************************t=215*****************************
+216 generation time: 28.02 s
+*****************************t=216*****************************
+217 generation time: 28.16 s
+*****************************t=217*****************************
+218 generation time: 28.27 s
+*****************************t=218*****************************
+219 generation time: 28.39 s
+*****************************t=219*****************************
+220 generation time: 28.52 s
+*****************************t=220*****************************
+221 generation time: 28.64 s
+*****************************t=221*****************************
+222 generation time: 28.77 s
+*****************************t=222*****************************
+223 generation time: 28.89 s
+*****************************t=223*****************************
+224 generation time: 29.03 s
+*****************************t=224*****************************
+225 generation time: 29.16 s
+*****************************t=225*****************************
+226 generation time: 29.28 s
+*****************************t=226*****************************
+227 generation time: 29.42 s
+*****************************t=227*****************************
+228 generation time: 29.55 s
+*****************************t=228*****************************
+229 generation time: 29.67 s
+*****************************t=229*****************************
+230 generation time: 29.80 s
+*****************************t=230*****************************
+231 generation time: 29.92 s
+*****************************t=231*****************************
+232 generation time: 30.05 s
+*****************************t=232*****************************
+233 generation time: 30.17 s
+*****************************t=233*****************************
+234 generation time: 30.30 s
+*****************************t=234*****************************
+235 generation time: 30.44 s
+*****************************t=235*****************************
+236 generation time: 30.56 s
+*****************************t=236*****************************
+237 generation time: 30.69 s
+*****************************t=237*****************************
+238 generation time: 30.80 s
+*****************************t=238*****************************
+239 generation time: 30.94 s
+*****************************t=239*****************************
+240 generation time: 31.06 s
+*****************************t=240*****************************
+241 generation time: 31.19 s
+*****************************t=241*****************************
+242 generation time: 31.33 s
+*****************************t=242*****************************
+243 generation time: 31.45 s
+*****************************t=243*****************************
+244 generation time: 31.58 s
+*****************************t=244*****************************
+245 generation time: 31.72 s
+*****************************t=245*****************************
+246 generation time: 31.83 s
+*****************************t=246*****************************
+247 generation time: 31.97 s
+*****************************t=247*****************************
+248 generation time: 32.08 s
+*****************************t=248*****************************
+249 generation time: 32.22 s
+*****************************t=249*****************************
+250 generation time: 32.34 s
+*****************************t=250*****************************
+251 generation time: 32.47 s
+*****************************t=251*****************************
+252 generation time: 32.59 s
+*****************************t=252*****************************
+253 generation time: 32.75 s
+*****************************t=253*****************************
+254 generation time: 32.86 s
+*****************************t=254*****************************
+255 generation time: 33.00 s
+*****************************t=255*****************************
+256 generation time: 33.13 s
+*****************************t=256*****************************
+257 generation time: 33.25 s
+*****************************t=257*****************************
+258 generation time: 33.41 s
+*****************************t=258*****************************
+259 generation time: 33.53 s
+*****************************t=259*****************************
+260 generation time: 33.67 s
+*****************************t=260*****************************
+261 generation time: 33.80 s
+*****************************t=261*****************************
+262 generation time: 33.92 s
+*****************************t=262*****************************
+263 generation time: 34.05 s
+*****************************t=263*****************************
+264 generation time: 34.17 s
+*****************************t=264*****************************
+265 generation time: 34.30 s
+*****************************t=265*****************************
+266 generation time: 34.42 s
+*****************************t=266*****************************
+267 generation time: 34.55 s
+*****************************t=267*****************************
+268 generation time: 34.67 s
+*****************************t=268*****************************
+269 generation time: 34.80 s
+*****************************t=269*****************************
+270 generation time: 34.92 s
+*****************************t=270*****************************
+271 generation time: 35.05 s
+*****************************t=271*****************************
+272 generation time: 35.17 s
+*****************************t=272*****************************
+273 generation time: 35.30 s
+*****************************t=273*****************************
+274 generation time: 35.42 s
+*****************************t=274*****************************
+275 generation time: 35.55 s
+*****************************t=275*****************************
+276 generation time: 35.67 s
+*****************************t=276*****************************
+277 generation time: 35.81 s
+*****************************t=277*****************************
+278 generation time: 35.94 s
+*****************************t=278*****************************
+279 generation time: 36.06 s
+*****************************t=279*****************************
+280 generation time: 36.20 s
+*****************************t=280*****************************
+281 generation time: 36.34 s
+*****************************t=281*****************************
+282 generation time: 36.47 s
+*****************************t=282*****************************
+283 generation time: 36.61 s
+*****************************t=283*****************************
+284 generation time: 36.75 s
+*****************************t=284*****************************
+285 generation time: 36.86 s
+*****************************t=285*****************************
+286 generation time: 37.00 s
+*****************************t=286*****************************
+287 generation time: 37.13 s
+*****************************t=287*****************************
+288 generation time: 37.25 s
+*****************************t=288*****************************
+289 generation time: 37.39 s
+*****************************t=289*****************************
+290 generation time: 37.53 s
+*****************************t=290*****************************
+291 generation time: 37.66 s
+*****************************t=291*****************************
+292 generation time: 37.80 s
+*****************************t=292*****************************
+293 generation time: 37.92 s
+*****************************t=293*****************************
+294 generation time: 38.05 s
+*****************************t=294*****************************
+295 generation time: 38.19 s
+*****************************t=295*****************************
+296 generation time: 38.31 s
+*****************************t=296*****************************
+297 generation time: 38.44 s
+*****************************t=297*****************************
+298 generation time: 38.56 s
+*****************************t=298*****************************
+299 generation time: 38.69 s
+*****************************t=299*****************************
+300 generation time: 38.80 s
+*****************************t=300*****************************
+301 generation time: 38.94 s
+*****************************t=301*****************************
+302 generation time: 39.06 s
+*****************************t=302*****************************
+303 generation time: 39.20 s
+*****************************t=303*****************************
+304 generation time: 39.33 s
+*****************************t=304*****************************
+305 generation time: 39.45 s
+*****************************t=305*****************************
+306 generation time: 39.58 s
+*****************************t=306*****************************
+307 generation time: 39.72 s
+*****************************t=307*****************************
+308 generation time: 39.84 s
+*****************************t=308*****************************
+309 generation time: 39.98 s
+*****************************t=309*****************************
+310 generation time: 40.09 s
+*****************************t=310*****************************
+311 generation time: 40.22 s
+*****************************t=311*****************************
+312 generation time: 40.36 s
+*****************************t=312*****************************
+313 generation time: 40.47 s
+*****************************t=313*****************************
+314 generation time: 40.61 s
+*****************************t=314*****************************
+315 generation time: 40.73 s
+*****************************t=315*****************************
+316 generation time: 40.84 s
+*****************************t=316*****************************
+317 generation time: 40.98 s
+*****************************t=317*****************************
+318 generation time: 41.13 s
+*****************************t=318*****************************
+319 generation time: 41.23 s
+*****************************t=319*****************************
+320 generation time: 41.36 s
+*****************************t=320*****************************
+321 generation time: 41.47 s
+*****************************t=321*****************************
+322 generation time: 41.61 s
+*****************************t=322*****************************
+323 generation time: 41.75 s
+*****************************t=323*****************************
+324 generation time: 41.86 s
+*****************************t=324*****************************
+325 generation time: 42.00 s
+*****************************t=325*****************************
+326 generation time: 42.13 s
+*****************************t=326*****************************
+327 generation time: 42.25 s
+*****************************t=327*****************************
+328 generation time: 42.38 s
+*****************************t=328*****************************
+329 generation time: 42.50 s
+*****************************t=329*****************************
+330 generation time: 42.61 s
+*****************************t=330*****************************
+331 generation time: 42.73 s
+*****************************t=331*****************************
+332 generation time: 42.86 s
+*****************************t=332*****************************
+333 generation time: 43.00 s
+*****************************t=333*****************************
+334 generation time: 43.14 s
+*****************************t=334*****************************
+335 generation time: 43.25 s
+*****************************t=335*****************************
+336 generation time: 43.39 s
+*****************************t=336*****************************
+337 generation time: 43.52 s
+*****************************t=337*****************************
+338 generation time: 43.64 s
+*****************************t=338*****************************
+339 generation time: 43.78 s
+*****************************t=339*****************************
+340 generation time: 43.91 s
+*****************************t=340*****************************
+341 generation time: 44.02 s
+*****************************t=341*****************************
+342 generation time: 44.16 s
+*****************************t=342*****************************
+343 generation time: 44.27 s
+*****************************t=343*****************************
+344 generation time: 44.41 s
+*****************************t=344*****************************
+345 generation time: 44.52 s
+*****************************t=345*****************************
+346 generation time: 44.64 s
+*****************************t=346*****************************
+347 generation time: 44.78 s
+*****************************t=347*****************************
+348 generation time: 44.91 s
+*****************************t=348*****************************
+349 generation time: 45.05 s
+*****************************t=349*****************************
+350 generation time: 45.17 s
+*****************************t=350*****************************
+351 generation time: 45.31 s
+*****************************t=351*****************************
+352 generation time: 45.44 s
+*****************************t=352*****************************
+353 generation time: 45.58 s
+*****************************t=353*****************************
+354 generation time: 45.70 s
+*****************************t=354*****************************
+355 generation time: 45.81 s
+*****************************t=355*****************************
+356 generation time: 45.95 s
+*****************************t=356*****************************
+357 generation time: 46.08 s
+*****************************t=357*****************************
+358 generation time: 46.20 s
+*****************************t=358*****************************
+359 generation time: 46.34 s
+*****************************t=359*****************************
+360 generation time: 46.47 s
+*****************************t=360*****************************
+361 generation time: 46.61 s
+*****************************t=361*****************************
+362 generation time: 46.75 s
+*****************************t=362*****************************
+363 generation time: 46.86 s
+*****************************t=363*****************************
+364 generation time: 47.00 s
+*****************************t=364*****************************
+365 generation time: 47.14 s
+*****************************t=365*****************************
+366 generation time: 47.25 s
+*****************************t=366*****************************
+367 generation time: 47.41 s
+*****************************t=367*****************************
+368 generation time: 47.57 s
+*****************************t=368*****************************
+369 generation time: 47.70 s
+*****************************t=369*****************************
+370 generation time: 47.81 s
+*****************************t=370*****************************
+371 generation time: 47.95 s
+*****************************t=371*****************************
+372 generation time: 48.07 s
+*****************************t=372*****************************
+373 generation time: 48.20 s
+*****************************t=373*****************************
+374 generation time: 48.32 s
+*****************************t=374*****************************
+375 generation time: 48.45 s
+*****************************t=375*****************************
+376 generation time: 48.59 s
+*****************************t=376*****************************
+377 generation time: 48.73 s
+*****************************t=377*****************************
+378 generation time: 48.84 s
+*****************************t=378*****************************
+379 generation time: 48.98 s
+*****************************t=379*****************************
+380 generation time: 49.12 s
+*****************************t=380*****************************
+381 generation time: 49.24 s
+*****************************t=381*****************************
+382 generation time: 49.37 s
+*****************************t=382*****************************
+383 generation time: 49.51 s
+*****************************t=383*****************************
+384 generation time: 49.63 s
+*****************************t=384*****************************
+385 generation time: 49.77 s
+*****************************t=385*****************************
+386 generation time: 49.90 s
+*****************************t=386*****************************
+387 generation time: 50.02 s
+*****************************t=387*****************************
+388 generation time: 50.16 s
+*****************************t=388*****************************
+389 generation time: 50.27 s
+*****************************t=389*****************************
+390 generation time: 50.40 s
+*****************************t=390*****************************
+391 generation time: 50.54 s
+*****************************t=391*****************************
+392 generation time: 50.66 s
+*****************************t=392*****************************
+393 generation time: 50.82 s
+*****************************t=393*****************************
+394 generation time: 50.95 s
+*****************************t=394*****************************
+395 generation time: 51.06 s
+*****************************t=395*****************************
+396 generation time: 51.21 s
+*****************************t=396*****************************
+397 generation time: 51.34 s
+*****************************t=397*****************************
+398 generation time: 51.45 s
+*****************************t=398*****************************
+399 generation time: 51.60 s
+*****************************t=399*****************************
+400 generation time: 51.73 s
+*****************************t=400*****************************
+401 generation time: 51.84 s
+*****************************t=401*****************************
+402 generation time: 51.99 s
+*****************************t=402*****************************
+403 generation time: 52.13 s
+*****************************t=403*****************************
+404 generation time: 52.26 s
+*****************************t=404*****************************
+405 generation time: 52.38 s
+*****************************t=405*****************************
+406 generation time: 52.51 s
+*****************************t=406*****************************
+407 generation time: 52.62 s
+*****************************t=407*****************************
+408 generation time: 52.74 s
+*****************************t=408*****************************
+409 generation time: 52.87 s
+*****************************t=409*****************************
+410 generation time: 52.99 s
+*****************************t=410*****************************
+411 generation time: 53.10 s
+*****************************t=411*****************************
+412 generation time: 53.23 s
+*****************************t=412*****************************
+413 generation time: 53.37 s
+*****************************t=413*****************************
+414 generation time: 53.49 s
+*****************************t=414*****************************
+415 generation time: 53.63 s
+*****************************t=415*****************************
+416 generation time: 53.77 s
+*****************************t=416*****************************
+417 generation time: 53.90 s
+*****************************t=417*****************************
+418 generation time: 54.02 s
+*****************************t=418*****************************
+419 generation time: 54.16 s
+*****************************t=419*****************************
+420 generation time: 54.27 s
+*****************************t=420*****************************
+421 generation time: 54.40 s
+*****************************t=421*****************************
+422 generation time: 54.52 s
+*****************************t=422*****************************
+423 generation time: 54.63 s
+*****************************t=423*****************************
+424 generation time: 54.76 s
+*****************************t=424*****************************
+425 generation time: 54.88 s
+*****************************t=425*****************************
+426 generation time: 55.01 s
+*****************************t=426*****************************
+427 generation time: 55.12 s
+*****************************t=427*****************************
+428 generation time: 55.24 s
+*****************************t=428*****************************
+429 generation time: 55.37 s
+*****************************t=429*****************************
+430 generation time: 55.49 s
+*****************************t=430*****************************
+431 generation time: 55.62 s
+*****************************t=431*****************************
+432 generation time: 55.74 s
+*****************************t=432*****************************
+433 generation time: 55.85 s
+*****************************t=433*****************************
+434 generation time: 55.99 s
+*****************************t=434*****************************
+435 generation time: 56.12 s
+*****************************t=435*****************************
+436 generation time: 56.23 s
+*****************************t=436*****************************
+437 generation time: 56.37 s
+*****************************t=437*****************************
+438 generation time: 56.49 s
+*****************************t=438*****************************
+439 generation time: 56.62 s
+*****************************t=439*****************************
+440 generation time: 56.74 s
+*****************************t=440*****************************
+441 generation time: 56.87 s
+*****************************t=441*****************************
+442 generation time: 57.01 s
+*****************************t=442*****************************
+443 generation time: 57.13 s
+*****************************t=443*****************************
+444 generation time: 57.24 s
+*****************************t=444*****************************
+445 generation time: 57.38 s
+*****************************t=445*****************************
+446 generation time: 57.51 s
+*****************************t=446*****************************
+447 generation time: 57.63 s
+*****************************t=447*****************************
+448 generation time: 57.77 s
+*****************************t=448*****************************
+449 generation time: 57.90 s
+*****************************t=449*****************************
+450 generation time: 58.01 s
+*****************************t=450*****************************
+451 generation time: 58.15 s
+*****************************t=451*****************************
+452 generation time: 58.26 s
+*****************************t=452*****************************
+453 generation time: 58.40 s
+*****************************t=453*****************************
+454 generation time: 58.54 s
+*****************************t=454*****************************
+455 generation time: 58.66 s
+*****************************t=455*****************************
+456 generation time: 58.79 s
+*****************************t=456*****************************
+457 generation time: 58.91 s
+*****************************t=457*****************************
+458 generation time: 59.04 s
+*****************************t=458*****************************
+459 generation time: 59.18 s
+*****************************t=459*****************************
+460 generation time: 59.32 s
+*****************************t=460*****************************
+461 generation time: 59.43 s
+*****************************t=461*****************************
+462 generation time: 59.56 s
+*****************************t=462*****************************
+463 generation time: 59.68 s
+*****************************t=463*****************************
+464 generation time: 59.79 s
+*****************************t=464*****************************
+465 generation time: 59.93 s
+*****************************t=465*****************************
+466 generation time: 60.04 s
+[87.00,0.00,1927.00],
+computation energy ratio: 0.627919, idle energy ratio: 0.353399, sleep energy ratio: 0.000000
+computation time ratio: 0.425287, idle time ratio: 0.574713, sleep time ratio: 0.000000
 第0个机器
-
-第1个机器
 1 2 4 
+第1个机器
+0 
 第2个机器
 3 5 6 
 第3个机器
+
+[80.00,30.86,2097.00],
+computation energy ratio: 0.586552, idle energy ratio: 0.396280, sleep energy ratio: 0.000000
+computation time ratio: 0.370833, idle time ratio: 0.629167, sleep time ratio: 0.000000
+第0个机器
+
+第1个机器
 0 
-Lstart=0.000000
-task 2 =19.000000
-Lstart=0.000000
-task 3 =10.000000
-Lstart=0.000000
-task 1 =47.000000
-Lstart=19.000000
-task 2 =38.000000
-Lstart=47.000000
-task 1 =56.000000
-Lstart=38.000000
-task 2 =55.000000
-Lstart=56.000000
-task 1 =80.000000
-makespan = 80.000000 energy = 2097.000000 p_contention = 0.000000
+第2个机器
+3 6 5 
+第3个机器
+1 2 4 
+AVERAGE: computation energy ratio: 0.607236, idle energy ratio: 0.374840, 
+AVERAGE: computation time ratio: 0.398060, idle time ratio: 0.601940,
+x=[87.00 80.00 ];
+y=[0.00 30.86 ];
+z=[1927.00 2097.00 ];
+tot = 4
+total time: 60.09 s
